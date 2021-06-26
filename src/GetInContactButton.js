@@ -1,11 +1,6 @@
 import { Button } from 'react-bootstrap';
 import { Component } from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class GetInContactButton extends Component {
 
@@ -14,11 +9,9 @@ class GetInContactButton extends Component {
   }
   render() {
     return <div>
-      <Router>
       <Link to="/Contact-Us">
         <Button variant="secondary" onClick={this.onGetInContactClick}>Get in contact now</Button>
       </Link>
-      </Router>
     </div>
   }
 }

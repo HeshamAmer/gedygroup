@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import { Navbar, Nav, Image } from 'react-bootstrap'
 import { Link } from "react-router-dom";
 import logo from './images/logo.png'
+import linkedInLogo from './images/linkedin.png'
 class NavigationBar extends Component {
   render() {
-    return <Navbar bg="dark" variant="dark" expand="lg">
+    return <Navbar bg="dark" sticky="top" variant="dark" expand="lg">
       <Navbar.Brand>
         <Link to="/">
-          <Image width="70px" height="auto" className="img-responsive" src={logo} alt="logo"></Image>
+          <Image width="70dp" height="auto" className="img-responsive" src={logo} alt="logo"></Image>
         </Link>
       </Navbar.Brand>
       <Nav.Link>
@@ -16,14 +17,17 @@ class NavigationBar extends Component {
         </Link>
       </Nav.Link>
       <Nav.Link>
-        <Link to="/Contact-Us">
+        <Link to="/contact-us">
           Contact Us
         </Link>
       </Nav.Link>
       <Nav.Link>
-        <Link to="/Pricing">
+        <Link to="/pricing">
           Pricing
         </Link>
+      </Nav.Link>
+      <Nav.Link>        
+          <Image width="30dp" height="30dp" className="img-responsive" src={linkedInLogo} alt="linkedInLogo" onClick={()=>{window.open('https://linkedin.com/company/gedygroup')}}></Image>                
       </Nav.Link>
     </Navbar>;
   }

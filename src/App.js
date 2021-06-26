@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import NavigationBar from './NavigationBar'
+import HomePageTitle from './HomePageTitle'
+import GetInContactButton from './GetInContactButton'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavigationBar />
+                      
+          <HomePageTitle />  
+        <div style={{display: 'flex', justifyContent:'center', alignItems:'center', backgroundColor: 'grey'}}>        
+          <GetInContactButton />
+        </div>    
     </div>
   );
 }

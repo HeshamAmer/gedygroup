@@ -5,10 +5,12 @@ import Carousel from '../Carousel'
 
 function Home() {
   return (
-    <div className="App">  
+    <div style={{backgroundColor:'black'}}>  
           <HomePageTitle />      
-          <GetInContactButton />
           <Carousel/>
+          <GetInContactButton />
+          <br/>
+          <br/>
     </div>
   );
 }

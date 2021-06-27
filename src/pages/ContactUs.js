@@ -10,8 +10,7 @@ class ContactUs extends Component {
   }
   render() {
     return <div style={{ backgroundColor: "black", color:'white', height: 'auto' }}>
-      <Image  height="250dp" className="img-responsive" src={contact_us} alt="logo"></Image>
-      <br/>
+      <Image  height="200dp" className="img-responsive" src={contact_us} alt="logo"></Image>
       <br/>
       <p>
       On behalf of the whole Gedygroup, we are really happy you here.<br/>
@@ -24,6 +23,8 @@ class ContactUs extends Component {
       Please write an email to our main contact point  <br/>      
       <b>HeshamAmer@gedygroup.com</b>
       </p>
+      <br/>
+      <br/>
       </div>    
   }
 }

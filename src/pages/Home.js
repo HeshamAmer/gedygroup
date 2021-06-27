@@ -6,7 +6,6 @@ import GetInContactButton from '../GetInContactButton'
 function Home() {
   return (
     <div className="App">  
-      <NavigationBar />
           <HomePageTitle />  
         <div style={{display: 'flex', justifyContent:'center', alignItems:'center', backgroundColor: 'grey'}}>        
           <GetInContactButton />

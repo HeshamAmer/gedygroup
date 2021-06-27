@@ -6,7 +6,6 @@ class Pricing extends Component {
 
   render() {
     return <div style={{ backgroundColor: "black" }}>
-      <NavigationBar />
       <h1 style={{
         color: "white",
         textAlign: "center",

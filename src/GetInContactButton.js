@@ -9,7 +9,7 @@ class GetInContactButton extends Component {
   }
   render() {
     return <div>
-      <Link to="/Contact-Us">
+      <Link to="/contact-us">
         <Button variant="secondary" onClick={this.onGetInContactClick}>Get in contact now</Button>
       </Link>
     </div>

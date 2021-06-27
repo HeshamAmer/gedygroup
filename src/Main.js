@@ -8,7 +8,7 @@ import Social from './pages/Social';
 
 const Main = () => {
   return (
-    <Switch> {/* The Switch decides which component to show based on the current URL.*/}
+    <Switch> 
       <Route exact path='/' component={Home}></Route>
       <Route exact path='/contact-Us' component={ContactUs}></Route>
       <Route exact path='/pricing' component={Pricing}></Route>

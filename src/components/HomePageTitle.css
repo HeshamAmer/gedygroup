@@ -1,0 +1,16 @@
+
+
+.home-page-title {
+    background-image: url("../images/stock-image.jpg");
+    background-size: 'cover';
+    height: 600px;
+    background-repeat: 'no-repeat';
+    text-align: 'center';
+}
+
+.home-page-font {
+    color: white;
+    text-align: "center";
+    font-family: 'sans-serif';
+    margin-top: 60dp;
+}

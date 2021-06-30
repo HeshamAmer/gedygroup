@@ -2,17 +2,18 @@
 import { Component } from 'react';
 import { Image } from 'react-bootstrap'
 import contact_us from '../images/contact-us.png'
+import '../App.css'
 class ContactUs extends Component {
 
   onGetInContactClick() {
     console.log('haer')
   }
   render() {
-    return <div style={{ backgroundColor: "black", color:'white', height: 'auto' }}>
+    return <div className='contact-us-page'>
       <Image  height="200dp" className="img-responsive" src={contact_us} alt="logo"></Image>
-      <br/>
-      <p>
-      On behalf of the whole Gedygroup, we are really happy you here.<br/>
+     
+      <p className='contact-us-paragraph'>
+      On behalf of the whole Gedygroup, we are really happy you are here.<br/>
       <br/>
       We know that our clients have unique needs and circumstances.<br/>
       Tell us more about your project,<br/>

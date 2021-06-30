@@ -7,7 +7,6 @@ function Home() {
   return (
     <div>  
           <HomePageTitle />      
-          <GetInContactButton />
           <AboutUs/>
           <br/>
           <br/>

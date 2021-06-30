@@ -3,7 +3,7 @@
 .home-page-title {
     background-image: url("../images/stock-image.jpg");
     background-size: 'cover';
-    height: 500pt;
+    height: 350pt;
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 100pt;
@@ -15,6 +15,7 @@
     color: white;
     text-align: center;
     font-family: 'sans-serif';
+    font-stretch: extra-expanded;
     font-size: 40pt;
     margin-bottom: 60pt;
     vertical-align: middle;

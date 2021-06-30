@@ -1,14 +1,14 @@
 import { Image } from 'react-bootstrap';
 import { Component } from 'react';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import logo from './images/logo.png'
 import './Carousel.css'
-class GetInContactButton extends Component {
+class GedyCarousel extends Component {
 
   render() {
     return <div>
-      <Carousel>
+      <Carousel showThumbs={false}>
                 <div>
                     <Image className="smallImage" src={logo} />
                     <p className="legend">Cutting edge technology</p>
@@ -25,4 +25,4 @@ class GetInContactButton extends Component {
     </div>
   }
 }
-export default GetInContactButton
+export default GedyCarousel

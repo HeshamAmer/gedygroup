@@ -5,11 +5,14 @@ import NavigationBar from './NavigationBar'
 
 function App() {
   return (
-    <div className="App">
-      <NavigationBar/>
-      <Main className="dottedBackground"/>    
-      <Footer/>
-
+    <div class="row">
+      <NavigationBar />
+      <div class="dotted-white-background"/>  
+      <div class="column">        
+        <Main/>    
+      </div>
+      <div class="dotted-white-background"/>
+      <Footer />
     </div>
   );
 }

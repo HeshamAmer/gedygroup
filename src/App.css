@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,11 +33,26 @@
   text-align: center;
 }
 
-.dottedBackground {
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 80%;
+  text-align: center;
+}
+.dotted-white-background {
+flex: 10%;
   background: white;
   background-image: radial-gradient(black 1px, transparent 0);
   background-size: 40px 40px;
   background-position: -19px -19px;
+  padding: 10dp;
 }
 
 .linkText{ color: white ; }

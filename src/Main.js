@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
 import Pricing from './pages/Pricing';
 import Social from './pages/Social';
-
 const Main = () => {
   return (
     <Switch> 

@@ -14,7 +14,11 @@ class HomePageTitle extends Component {
           <h1 style={{
               color: "white",
               textAlign: "center",
-            }}>Professional, <br/> Personal <br/> solutions </h1>
+            }}>
+              <br/>
+              <br/>
+              Professional, <br/> Personal <br/> solutions </h1>
+              <br/><br/>
         </div>
   }
 }

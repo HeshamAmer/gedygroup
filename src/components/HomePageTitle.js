@@ -6,6 +6,8 @@ class HomePageTitle extends Component {
     return <div className='home-page-title' >
       <h1 className='home-page-font'>
         Professional Personal Solutions </h1>
+        <tr/>
+        <h4 className='home-page-font' style={{marginTop: '-50px'}}>Bring your ideas to life! </h4>
       <GetInContactButton />
     </div>
   }

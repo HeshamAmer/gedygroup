@@ -1,6 +1,5 @@
 
 import { Component } from 'react';
-import NavigationBar from '../NavigationBar'
 import { Image } from 'react-bootstrap'
 import contact_us from '../images/contact-us.png'
 class ContactUs extends Component {

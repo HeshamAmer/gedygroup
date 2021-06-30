@@ -42,6 +42,10 @@
   background-position: -19px -19px;
 }
 
+.linkText{ color: white ; }
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -3,6 +3,7 @@ import { Navbar, Nav, Image } from 'react-bootstrap'
 import { Link } from "react-router-dom";
 import logo from './images/logo.png'
 import linkedInLogo from './images/linkedin.png'
+import './App.css'
 class NavigationBar extends Component {
   render() {
     return <Navbar bg="dark" sticky="top" variant="dark" expand="lg">
@@ -13,17 +14,17 @@ class NavigationBar extends Component {
       </Navbar.Brand>
       <Nav.Link>
         <Link to="/">
-          Home
+        <h5 className="linkText">Home</h5>
         </Link>
       </Nav.Link>
       <Nav.Link>
         <Link to="/contact-us">
-          Contact Us
+        <h5 className="linkText">Contact Us</h5>
         </Link>
       </Nav.Link>
       <Nav.Link>
         <Link to="/pricing">
-          Pricing
+        <h5 className="linkText">Pricing</h5>          
         </Link>
       </Nav.Link>
       <Nav.Link>        

@@ -1,6 +1,5 @@
-import { Button, Image } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import { Component } from 'react';
-import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import logo from './images/logo.png'

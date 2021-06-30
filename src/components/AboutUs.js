@@ -6,10 +6,10 @@ class AboutUs extends Component {
 
   render() {
     return <div>
-      <h3 className='subtitle'>Personalized Software</h3>
-      <p className='about-us-paragraph'>At our company, we turn the digital dreams of our clients into a reality. <br />
+      <h1 className='subtitle'>Personalized Software</h1>
+      <h4 className='about-us-paragraph'>At our company, we turn the digital dreams of our clients into a reality. <br />
         We work closely with our users throughout development to ensure that we are still aligned with the end-goal. <br />
-        We are committed to producing exceptional software for each of our clients.</p>
+        We are committed to producing exceptional software for each of our clients.</h4>
       <hr />
       <h3 className='subtitle'>Payment solutions experts</h3>
       <p className='about-us-paragraph'>We have developed payment solution integrations with most of the online payment providers. <br />

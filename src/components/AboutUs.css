@@ -1,11 +1,10 @@
 .about-us-paragraph {
-font-size: 20pt;
-margin-bottom: 70pt;
-color: grey;
+padding: 20px;
+color: black;
 }
 
 .subtitle {
-    font-size: 25pt;
-    margin-bottom: 30pt;
-    color: grey;
+    color: black;
+    margin: 25px;
+    font-family: sans-serif;
 }

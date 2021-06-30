@@ -3,14 +3,19 @@
 .home-page-title {
     background-image: url("../images/stock-image.jpg");
     background-size: 'cover';
-    height: 600px;
-    background-repeat: 'no-repeat';
-    text-align: 'center';
+    height: 500pt;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 100pt;
+    margin-bottom: 60px;
+    
 }
 
 .home-page-font {
     color: white;
-    text-align: "center";
+    text-align: center;
     font-family: 'sans-serif';
-    margin-top: 60dp;
+    font-size: 40pt;
+    margin-bottom: 60pt;
+    vertical-align: middle;
 }

@@ -12,24 +12,28 @@ class NavigationBar extends Component {
           <Image width="70dp" height="auto" className="img-responsive" src={logo} alt="logo"></Image>
         </Link>
       </Navbar.Brand>
-      <Nav.Link>
-        <Link to="/">
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+
+      <Nav>
+      <Nav.Link href="/">
         <h5 className="linkText">Home</h5>
-        </Link>
       </Nav.Link>
-      <Nav.Link>
-        <Link to="/contact-us">
+      <Nav.Link href="/contact-us">
         <h5 className="linkText">Contact Us</h5>
-        </Link>
       </Nav.Link>
-      <Nav.Link>
-        <Link to="/pricing">
-        <h5 className="linkText">Pricing</h5>          
-        </Link>
+      <Nav.Link href="/pricing">
+        <h5 className="linkText">Pricing</h5>         
       </Nav.Link>
+      </Nav>
+      
+      <Nav class="ml-auto">
       <Nav.Link>        
-          <Image width="30dp" height="30dp" className="img-responsive" src={linkedInLogo} alt="linkedInLogo" onClick={()=>{window.open('https://linkedin.com/company/gedygroup')}}></Image>                
+          <Image title="LinkedIn" width="30dp" height="30dp" className="img-responsive" src={linkedInLogo} alt="linkedInLogo" onClick={()=>{window.open('https://linkedin.com/company/gedygroup')}}></Image>                
       </Nav.Link>
+      </Nav>
+      </Navbar.Collapse>
+      
     </Navbar>;
   }
 }

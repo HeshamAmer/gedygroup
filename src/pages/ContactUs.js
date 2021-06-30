@@ -21,7 +21,7 @@ class ContactUs extends Component {
       <br/>
       <br/>
       Please write an email to our main contact point  <br/>      
-      <b>HeshamAmer@gedygroup.com</b>
+      <b><a class="email" href="mailto:HeshamAmer@gedygroup.com">HeshamAmer@gedygroup.com</a></b>
       </p>
       <br/>
       <br/>

@@ -67,7 +67,18 @@ flex: 10%;
   background-position: -19px -19px;
 }
 
-.linkText{ color: white ; }
+.linkText{ 
+  color: white ;
+  text-decoration: none;
+}
+.linkText:hover{
+  color: #04837b;
+}
+
+.email{
+  text-decoration: none;
+  color:grey;
+}
 
 
 

@@ -1,7 +1,7 @@
 import './App.css';
 import Main from './Main'
-import Footer from './Footer'
-import NavigationBar from './NavigationBar'
+import Footer from './components/Footer'
+import NavigationBar from './components/NavigationBar'
 
 function App() {
   return (

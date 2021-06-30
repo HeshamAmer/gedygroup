@@ -1,7 +1,7 @@
 import './Home.css';
-import HomePageTitle from '../HomePageTitle'
-import GetInContactButton from '../GetInContactButton'
-import AboutUs from '../AboutUs'
+import HomePageTitle from '../components/HomePageTitle'
+import GetInContactButton from '../components/GetInContactButton'
+import AboutUs from '../components/AboutUs'
 
 function Home() {
   return (

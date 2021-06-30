@@ -2,7 +2,7 @@ import { Image } from 'react-bootstrap';
 import { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import img_1 from './images/carousel1.jpg'
+import img_1 from '../images/carousel1.jpg'
 import './Carousel.css'
 class GedyCarousel extends Component {
 

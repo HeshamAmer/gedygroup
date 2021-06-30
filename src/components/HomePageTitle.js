@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import background from './images/stock-image.jpg'
+import background from '../images/stock-image.jpg'
 import Carousel from './Carousel'
 class HomePageTitle extends Component {
   render() {

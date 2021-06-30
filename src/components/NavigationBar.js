@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, Image } from 'react-bootstrap'
 import { Link } from "react-router-dom";
-import logo from './images/logo.png'
-import linkedInLogo from './images/linkedin.png'
-import './App.css'
+import logo from '../images/logo.png'
+import linkedInLogo from '../images/linkedin.png'
+import '../App.css'
 class NavigationBar extends Component {
   render() {
     return <Navbar bg="dark" sticky="top" variant="dark" expand="lg">

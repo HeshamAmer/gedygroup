@@ -33,9 +33,7 @@
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
+
 
 .row {
   display: flex;
@@ -52,7 +50,6 @@ flex: 10%;
   background-image: radial-gradient(black 1px, transparent 0);
   background-size: 40px 40px;
   background-position: -19px -19px;
-  padding: 10dp;
 }
 
 .linkText{ color: white ; }

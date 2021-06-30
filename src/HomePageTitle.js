@@ -4,7 +4,7 @@ import Carousel from './Carousel'
 class HomePageTitle extends Component {
   render() {
     return <div style={
-      {
+      {    
         backgroundImage: `url(${background})`,
         backgroundSize: 'cover',
         height: '100%',

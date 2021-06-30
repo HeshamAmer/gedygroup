@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 class GetInContactButton extends Component {
   render() {
-    return <div>
+    return <div style={{padding:'10px'}}>
       <Link to="/contact-us">
         <Button variant="secondary">Get in contact now</Button>
       </Link>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Navbar, Nav, Image } from 'react-bootstrap'
 import { Link } from "react-router-dom";
 import logo from './images/logo.png'
-import linkedInLogo from './images/linkedin_black.png'
+import linkedInLogo from './images/linkedin.png'
 import './App.css'
 class NavigationBar extends Component {
   render() {

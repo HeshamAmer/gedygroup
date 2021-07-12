@@ -2,7 +2,9 @@
 font-size: 16pt;
 margin-bottom: 35pt;
 color: grey;
+font-family: 'Lato', sans-serif;
 }
+
 
 .subtitle {
     margin-top:35pt;
@@ -10,4 +12,6 @@ color: grey;
     margin-bottom: 10pt;
     color: black;
     font-weight:bold;
+    
+font-family: 'Lato', sans-serif;
 }

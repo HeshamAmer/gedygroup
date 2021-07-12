@@ -80,8 +80,14 @@ flex: 10%;
   color:grey;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Oswald:wght@700&family=Ubuntu:wght@500&display=swap');
+.nav-item{
+  font-family: 'Open Sans', sans-serif;
+}
 
-
+.lato{
+  font-family:'Lato', sans-serif;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

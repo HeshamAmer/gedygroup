@@ -12,7 +12,7 @@ class ContactUs extends Component {
     return <div className='contact-us-page'>
       <Image  height="200dp" className="img-responsive" src={contact_us} alt="logo"></Image>
      
-      <p className='contact-us-paragraph'>
+      <p className='contact-us-paragraph lato'>
       On behalf of the whole Gedygroup, we are really happy you are here.<br/>
       <br/>
       We know that our clients have unique needs and circumstances.<br/>

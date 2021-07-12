@@ -17,13 +17,17 @@ class NavigationBar extends Component {
 
       <Nav>
       <Nav.Link href="/">
-        <h5 className="linkText">Home</h5>
+        <h5 className="linkText nav-item">Home</h5>
       </Nav.Link>
-      <Nav.Link href="/contact-us">
-        <h5 className="linkText">Contact Us</h5>
+      <Nav.Link>
+        <Link to="/contact-us" style={{textDecoration:"none"}}>
+        <h5 className="linkText nav-item">Contact Us</h5>
+        </Link>
       </Nav.Link>
-      <Nav.Link href="/pricing">
-        <h5 className="linkText">Pricing</h5>         
+      <Nav.Link>
+        <Link to="/pricing" style={{textDecoration:"none"}}>
+        <h5 className="linkText nav-item">Pricing</h5>         
+        </Link>
       </Nav.Link>
       </Nav>
       

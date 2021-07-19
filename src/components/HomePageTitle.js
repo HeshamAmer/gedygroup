@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './HomePageTitle.css'
 import GetInContactButton from './GetInContactButton';
+import Carousel from './Carousel'
+
 class HomePageTitle extends Component {
   render() {
     return <div className='home-page-title'>
@@ -9,6 +11,7 @@ class HomePageTitle extends Component {
         <tr />
         <h4 className='home-page-font display-4' style={{marginTop: '-50px'}}>Bring your ideas to life! </h4>
       <GetInContactButton />
+      <Carousel/>
     </div>
   }
 }

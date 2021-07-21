@@ -1,14 +1,26 @@
 import { Component } from 'react';
 import { Image, Card, Button } from 'react-bootstrap'
 import '../App.css';
-class Pricing extends Component {
+import img_5 from '../images/5-project-based.jpg'
+import img_6 from '../images/6-team-based.jpg'
 
+class Pricing extends Component {
   render() {
-    return <div  style={{display: "flex"}} className='pricing-page'>      
-      <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+    return <div>
+      <div style={{ padding: "20px" }}>
+        <h3> 
+        agileagileagileagileagileagileagileagileagileagileagileagileagileagileagileagileagileagileagileagileagileagile
+        </h3>
+      </div>
+    <div  style={{display: "flex"}} className='pricing-page'>      
+      <div style={{ width: '10%'}} ></div>
+      <Card style={{ width: '40%', margin: "5px"  }}>      
+      
+      <Card.Img variant="top" src={img_6}/>
         <Card.Body>
-          <Card.Title>Dedicated Team</Card.Title>
+        <Card.Title>
+        <h4>Dedicated Team</h4>
+      </Card.Title>
           <Card.Text>
           With an agile, innovative approach to product development. 
           <br/>
@@ -17,11 +29,14 @@ class Pricing extends Component {
           we aim to provide tailor-made technology that fits your needs.
           </Card.Text>
         </Card.Body>
+        
       </Card>
-      <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+      <Card style={{ width: '40%', margin: "5px"  }}>
+     
+          <Card.Img variant="top" src={img_5} />
         <Card.Body>
-          <Card.Title>Project based</Card.Title>
+        <Card.Title>
+          <h4>Project based</h4></Card.Title>
           <Card.Text>
           Got a project in mind? 
           <br/>
@@ -31,6 +46,9 @@ class Pricing extends Component {
           </Card.Text>
         </Card.Body>
       </Card>
+      <div style={{ width: '10%' }} ></div>
+    </div>
+
     </div>
   }
 }

@@ -9,8 +9,12 @@ class Pricing extends Component {
     return <div>
       <div style={{ padding: "20px" }}>
         <h3> 
-        agileagileagileagileagileagileagileagileagileagileagileagileagileagileagileagileagileagileagileagileagileagile
+          In GedyGroup, We're dedicated to stay transparent         
         </h3>
+        <h5>
+          That's why we allow clients to to choose the pricing model that fits their needs best <br/>
+          Pick a model and we'll advise you the best
+        </h5>
       </div>
     <div  style={{display: "flex"}} className='pricing-page'>      
       <div style={{ width: '10%'}} ></div>

@@ -75,6 +75,13 @@ flex: 10%;
   color: #04837b;
 }
 
+.about-us-paragraph {
+  font-size: 16pt;
+  margin-bottom: 35pt;
+  color: grey;
+  font-family: 'Lato', sans-serif;
+  }
+  
 .email{
   text-decoration: none;
   color:grey;

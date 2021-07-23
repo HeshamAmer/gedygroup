@@ -18,22 +18,22 @@ class NavigationBar extends Component {
       <Nav>
       <Nav.Link href="/">
         <h5 className="linkText nav-item">Home</h5>
+      </Nav.Link>    
+      <Nav.Link>
+        <Link to="/pricing" style={{textDecoration:"none"}}>
+        <h5 className="linkText nav-item">Pricing</h5>         
+        </Link>
       </Nav.Link>
       <Nav.Link>
         <Link to="/contact-us" style={{textDecoration:"none"}}>
         <h5 className="linkText nav-item">Contact Us</h5>
         </Link>
       </Nav.Link>
-      <Nav.Link>
-        <Link to="/pricing" style={{textDecoration:"none"}}>
-        <h5 className="linkText nav-item">Pricing</h5>         
-        </Link>
-      </Nav.Link>
       </Nav>
       
       <Nav class="ml-auto">
       <Nav.Link>        
-          <Image title="LinkedIn" width="30dp" height="30dp" className="img-responsive" src={linkedInLogo} alt="linkedInLogo" onClick={()=>{window.open('https://linkedin.com/company/gedygroup')}}></Image>                
+          <Image title="LinkedIn" width="40dp" height="40dp" className="img-responsive" src={linkedInLogo} alt="linkedInLogo" onClick={()=>{window.open('https://linkedin.com/company/gedygroup')}}></Image>                
       </Nav.Link>
       </Nav>
       </Navbar.Collapse>

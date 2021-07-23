@@ -10,18 +10,18 @@ class ContactUs extends Component {
   }
   render() {
     return <div className='contact-us-page'>
-      <Image  height="200dp" className="img-responsive" src={contact_us} alt="logo"></Image>
+      <Image  height="300dp" className="img-responsive" src={contact_us} alt="logo"></Image>
      
-      <p className='contact-us-paragraph lato'>
-      On behalf of the whole Gedygroup, we are really happy you are here.<br/>
+      <p className='about-us-paragraph lato'>
+      We are really happy to answer any inquiries you may have.<br/>
       <br/>
-      We know that our clients have unique needs and circumstances.<br/>
-      Tell us more about your project,<br/>
-      and we will get back to you soon with some ideas of how we can address them.<br/>
-      <br/>
-      <br/>
-      Please write an email to our main contact point  <br/>      
-      <b><a class="email" href="mailto:HeshamAmer@gedygroup.com">HeshamAmer@gedygroup.com</a></b>
+      Write to us we will get back to you.<br/>
+          
+      <b>
+        <a class="email" href="mailto:HeshamAmer@gedygroup.com">
+          <h3>HeshamAmer@gedygroup.com </h3> 
+        </a>
+      </b>
       </p>
       <br/>
       <br/>

@@ -13,7 +13,7 @@ class GedyCarousel extends Component {
 
   render() {
     return <div>
-      <Carousel showThumbs={false} autoPlay  infiniteLoop>
+      <Carousel showThumbs={false} showStatus={false} autoPlay  infiniteLoop>
                 <Image className="smallImage" src={img_1} />
                 <Image className="smallImage" src={img_2} />
                 <Image className="smallImage" src={img_3} />

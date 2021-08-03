@@ -1,17 +1,27 @@
 .about-us-paragraph {
 font-size: 16pt;
-margin-bottom: 35pt;
+margin: 15pt;
 color: grey;
 font-family: 'Lato', sans-serif;
 }
 
 
 .subtitle {
-    margin-top:35pt;
+    padding: 5pt;
+    margin:15pt;
     font-size: 25pt;
-    margin-bottom: 10pt;
     color: black;
     font-weight:bold;
     
 font-family: 'Lato', sans-serif;
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        transform: scale(1.15);
+        transition: 50ms linear;
+        background:rgba(225, 225, 225, .8);
+        
 }

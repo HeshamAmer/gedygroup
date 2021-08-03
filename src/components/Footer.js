@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return <div>
       <Card>
-        <Card.Header>Copyright © 2021 Gedygroup - All Rights Reserved.</Card.Header>        
+        <Card.Header>Copyright © 2021 Gedygroup LLC - All Rights Reserved.</Card.Header>        
       </Card>
     </div>
   }

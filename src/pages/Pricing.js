@@ -22,7 +22,7 @@ class Pricing extends Component {
       <div style={{ width: '10%'}} ></div>
       <Container>
         <Row>        
-          <Col>
+          <Col className='d-flex align-items-stretch'>
             <Card className="cardHover">      
             <Card.Img variant="top" src={img_7}/>
               <Card.Body>
@@ -42,7 +42,7 @@ class Pricing extends Component {
                 </Card.Footer>
             </Card>
           </Col>
-          <Col>
+          <Col className='d-flex align-items-stretch'>
             <Card className="cardHover">      
             <Card.Img variant="top" src={img_6}/>
               <Card.Body>
@@ -65,7 +65,7 @@ class Pricing extends Component {
                 </Card.Footer>
             </Card>
           </Col>
-          <Col>
+          <Col className='d-flex align-items-stretch'>
           <Card className="cardHover">              
                 <Card.Img variant="top" src={img_5} />
               <Card.Body>

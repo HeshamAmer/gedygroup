@@ -5,8 +5,8 @@ import './AboutUs.css'
 class AboutUs extends Component {
 
   render() {
-    return <div class="container"
-    ><div class="col-sm-12 justify-content-center text-center">
+    return <div className="container"
+    ><div className="col-sm-12 justify-content-center text-center">
       <div className="grow">
       <h3 className='subtitle'>Personalized Software</h3>
       <p className='about-us-paragraph'>At our company, we turn the digital dreams of our clients into a reality. <br />

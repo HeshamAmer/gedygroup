@@ -31,7 +31,7 @@ class NavigationBar extends Component {
       </Nav.Link>
       </Nav>
       
-      <Nav class="ml-auto">
+      <Nav className="ml-auto">
       <Nav.Link>        
           <Image title="LinkedIn" width="40dp" height="40dp" className="img-responsive" src={linkedInLogo} alt="linkedInLogo" onClick={()=>{window.open('https://linkedin.com/company/gedygroup')}}></Image>                
       </Nav.Link>

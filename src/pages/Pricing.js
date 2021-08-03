@@ -4,6 +4,7 @@ import './Pricing.css';
 import img_5 from '../images/5-project-based.jpg'
 import img_6 from '../images/6-team-based.jpg'
 import img_7 from '../images/7-free-lancer.jpg'
+import ScrollToTopButton from '../components/ScrollToTopButton';
 
 class Pricing extends Component {
   render() {
@@ -91,7 +92,6 @@ class Pricing extends Component {
       </Container>
       <div style={{ width: '10%' }} ></div>
     </div>
-
     </div>
   }
 }

@@ -4,10 +4,6 @@ import { Image } from 'react-bootstrap'
 import contact_us from '../images/contact-us.png'
 import '../App.css'
 class ContactUs extends Component {
-
-  onGetInContactClick() {
-    console.log('haer')
-  }
   render() {
     return <div className='contact-us-page'>
       <Image  height="300dp" className="img-responsive" src={contact_us} alt="logo"></Image>
@@ -19,7 +15,7 @@ class ContactUs extends Component {
           
       <b>
         <a class="email" href="mailto:HeshamAmer@gedygroup.com">
-          <h3>HeshamAmer@gedygroup.com </h3> 
+          <h3 style={{color: "black"}}>HeshamAmer@gedygroup.com </h3> 
         </a>
       </b>
       </p>

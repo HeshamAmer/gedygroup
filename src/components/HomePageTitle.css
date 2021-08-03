@@ -8,7 +8,8 @@
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 100pt;
-    margin-bottom: 60px;
+    border-bottom: 5px ridge;
+    height:90vh;
     
 }
 

@@ -22,7 +22,6 @@ class HomePageTitle extends Component {
       <div className='home-page-title'>
         <h1 className='home-page-font mt-5 display-2'>
           Professional, Personal Solutions </h1>
-          <tr />
           <h4 className='home-page-font display-4' style={{marginTop: '-50px'}}>Bring your ideas to life! </h4>
         <GetInContactButton />
         <button id="scrollToCarouselBtn" onClick={handleBackClick}><FontAwesomeIcon icon={faChevronDown}/></button>

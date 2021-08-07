@@ -6,7 +6,8 @@ import ScrollToTopButton from './components/ScrollToTopButton';
 
 function App() {
   return (
-    <div className="App"><NavigationBar />
+    <div className="App">
+      <NavigationBar />
       <Main />
       <ScrollToTopButton/>
       <Footer />

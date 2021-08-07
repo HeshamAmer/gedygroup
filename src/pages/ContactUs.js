@@ -6,7 +6,7 @@ import '../App.css'
 class ContactUs extends Component {
   render() {
     return <div className='contact-us-page'>
-      <Image  height="300dp" className="img-responsive" src={contact_us} alt="logo"></Image>
+      <Image className="img-fluid col-sm-5" src={contact_us} alt="logo"></Image>
      
       <p className='about-us-paragraph lato'>
       We are really happy to answer any inquiries you may have.<br/>
@@ -14,7 +14,7 @@ class ContactUs extends Component {
       Write to us we will get back to you.<br/>
           
       <b>
-        <a class="email" href="mailto:HeshamAmer@gedygroup.com">
+        <a className="email" href="mailto:HeshamAmer@gedygroup.com">
           <h3 style={{color: "black"}}>HeshamAmer@gedygroup.com </h3> 
         </a>
       </b>

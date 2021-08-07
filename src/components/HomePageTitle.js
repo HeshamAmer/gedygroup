@@ -7,11 +7,12 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 class HomePageTitle extends Component {
   render() {
-    function handleBackClick() {
+    function scrollToCarousel() {
         var element = document.getElementById('scrollable');
         var navbarHeight = document.getElementsByClassName('navbar')[0].clientHeight;
         var elementPosition = element.getBoundingClientRect().top;
-        var offsetPosition = elementPosition - navbarHeight;
+        var current_scroll = document.documentElement.scrollTop || document.body.scrollTop
+        var offsetPosition = elementPosition - navbarHeight + current_scroll;
 
         window.scrollTo({
             top: offsetPosition,
@@ -24,7 +25,7 @@ class HomePageTitle extends Component {
           Professional, Personal Solutions </h1>
           <h4 className='home-page-font display-4' style={{marginTop: '-50px'}}>Bring your ideas to life! </h4>
         <GetInContactButton />
-        <button id="scrollToCarouselBtn" onClick={handleBackClick}><FontAwesomeIcon icon={faChevronDown}/></button>
+        <button id="scrollToCarouselBtn" onClick={scrollToCarousel}><FontAwesomeIcon icon={faChevronDown}/></button>
         </div>
         <div id="scrollable">
         <Carousel/>

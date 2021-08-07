@@ -13,16 +13,16 @@ class Pricing extends Component {
           Designed for Transparency
         </h3>
         <h5 className="about-us-paragraph">
-          We allow clients to to choose the pricing model that fits their needs best. <br/>
+          We allow clients to choose the pricing model that fits their needs best. <br/>
           Pick a model and we'll advise you the best <br/>
-          With transparent prices every step of the way.
+          with transparent prices every step of the way.
         </h5>
       </div>
     <div  style={{display: "flex", margin: "20px"}} className='pricing-page'>      
       <div style={{ width: '10%'}} ></div>
       <Container>
         <Row>        
-          <Col className='d-flex align-items-stretch'>
+          <Col className='d-flex align-items-stretch mb-2'>
             <Card className="cardHover">      
             <Card.Img variant="top" src={img_7}/>
               <Card.Body>
@@ -30,7 +30,7 @@ class Pricing extends Component {
               <h4>Freelancer</h4>
             </Card.Title>
                 <Card.Text>
-                <p className='about-us-paragraph lato'> Need someone to join your operational team and help you meet your deadlines?
+                <p className='about-us-paragraph lato'> <strong>Need someone to join your operational team and help you meet your deadlines?</strong>
 
                 <br/>
                 Then meet one of our experts who integrates as part of your team<br/>                
@@ -42,7 +42,7 @@ class Pricing extends Component {
                 </Card.Footer>
             </Card>
           </Col>
-          <Col className='d-flex align-items-stretch'>
+          <Col className='d-flex align-items-stretch mb-2'>
             <Card className="cardHover">      
             <Card.Img variant="top" src={img_6}/>
               <Card.Body>
@@ -51,11 +51,11 @@ class Pricing extends Component {
             </Card.Title>
                 <Card.Text>
                 <p className='about-us-paragraph lato'> 
-                Have a product that needs to be developed or maintained?
+                <strong>Have a product that needs to be developed or maintained?</strong>
                 <br/>
                 With an agile, innovative approach to product development. 
                 <br/>
-                we provide a team composed of expert back and front-end software engineers, with automated tests and continuous deployments.
+                We provide a team composed of expert back and front-end software engineers, with automated tests and continuous deployments.
                 <br/>                
                 </p>
                 </Card.Text>
@@ -65,20 +65,20 @@ class Pricing extends Component {
                 </Card.Footer>
             </Card>
           </Col>
-          <Col className='d-flex align-items-stretch'>
+          <Col className='d-flex align-items-stretch mb-2'>
           <Card className="cardHover">              
                 <Card.Img variant="top" src={img_5} />
               <Card.Body>
               <Card.Title>
                 <h4>Project based</h4></Card.Title>
                 <Card.Text>
-                <p className='about-us-paragraph lato'>Got a project in mind? 
+                <p className='about-us-paragraph lato'><strong>Got a project in mind? </strong>
                 <br/>
                 We will happily help you design, architect and build it.
                 <br/>
-                we aim to provide tailor-made technology that fits your needs.
+                We aim to provide tailor-made technology that fits your needs.
                 <br/>
-                We estimate the number of days required to build your features and we only charge of the actual days used.
+                We estimate the number of days required to build your features and we only charge based on the actual days used.
                 </p>
                 </Card.Text>                
               </Card.Body>

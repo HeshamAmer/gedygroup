@@ -13,7 +13,7 @@ class Imprint extends Component {
       <p>
         <br />
         Telephone: 017677550698 <br />
-        E-Mail: heshamamer@gedygroup.com <br />
+        E-Mail: contact@gedygroup.com <br />
         Management: Hesham Amer, Mohamed Amer
       </p>
       Gedygroup is a limited liability company, registered under Egyptian Law <br />

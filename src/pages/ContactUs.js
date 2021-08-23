@@ -14,8 +14,8 @@ class ContactUs extends Component {
       Write to us we will get back to you.<br/>
           
       <b>
-        <a className="email" href="mailto:HeshamAmer@gedygroup.com">
-          <h3 style={{color: "black"}}>HeshamAmer@gedygroup.com </h3> 
+        <a className="email" href="mailto:contact@gedygroup.com">
+          <h3 style={{color: "black"}}>contact@gedygroup.com </h3> 
         </a>
       </b>
       </p>

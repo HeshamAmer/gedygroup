@@ -3,7 +3,9 @@ import { Navbar, Nav, Image } from 'react-bootstrap'
 import { Link } from "react-router-dom";
 import logo from '../images/logo.png'
 import linkedInLogo from '../images/linkedin.png'
+import githublogo from '../images/githubLogo.png'
 import '../App.css'
+
 class NavigationBar extends Component {
   render() {
     return <Navbar bg="dark" sticky="top" variant="dark" expand="lg">
@@ -34,6 +36,8 @@ class NavigationBar extends Component {
       <Nav className="ml-auto">
       <Nav.Link>        
           <Image title="LinkedIn" width="40dp" height="40dp" className="img-responsive" src={linkedInLogo} alt="linkedInLogo" onClick={()=>{window.open('https://linkedin.com/company/gedygroup')}}></Image>                
+          <Image title="Github" width="40dp" height="40dp" className="img-responsive" src={githublogo} alt="giithubLogo" onClick={()=>{window.open('https://linkedin.com/company/gedygroup')}}></Image>                
+
       </Nav.Link>
       </Nav>
       </Navbar.Collapse>

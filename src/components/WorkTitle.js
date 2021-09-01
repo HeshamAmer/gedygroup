@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './HomePageTitle.css'
+import './Work.css'
 import { Col, Container, Image, Row } from 'react-bootstrap'
 
 import phone1 from '../images/phone1.png'
@@ -37,7 +38,7 @@ class WorkTitle extends Component{
 
                 <div className="row">
                     <div className="col-sm-12 justify-content-center text-center">
-                    <h2 className='qr-body mt-2 display-5'>
+                    <h2 className='qr-sub-font mt-2 display-5'>
                             Our Apps Features
                         </h2>
                         <Image className="img-fluid col-sm-5" src={phone1} alt="logo"></Image>

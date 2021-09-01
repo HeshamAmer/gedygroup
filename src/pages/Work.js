@@ -1,4 +1,4 @@
-import '../components/Work.css';
+
 import HomePageTitle from '../components/HomePageTitle'
 import WorkTitle from '../components/WorkTitle'
 

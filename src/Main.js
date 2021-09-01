@@ -6,6 +6,7 @@ import ContactUs from './pages/ContactUs';
 import Pricing from './pages/Pricing';
 import Social from './pages/Social';
 import Imprint from './pages/Imprint';
+import Work from './pages/Work';
 const Main = () => {
   return (
     <Switch> 
@@ -14,6 +15,7 @@ const Main = () => {
       <Route exact path='/pricing' component={Pricing}></Route>
       <Route exact path='/social' component={Social}></Route>
       <Route exact path='/imprint' component={Imprint}></Route>
+      <Route exact path='/work' component={Work}></Route>
     </Switch>
   );
 }

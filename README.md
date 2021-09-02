@@ -9,6 +9,18 @@ This is the landing page for GedyGroup LLC2021, a freelancing company that provi
 - Services
 - Contact Us
 
+## How to deploy
+
+1- Create [a Firebase project](https://firebase.google.com/docs/web/setup)\
+2- [Install](https://firebase.google.com/docs/cli#install_the_firebase_cli) Firebase CLI\
+3- Initialize project using
+
+### `firebase init hosting`
+
+4- Run below command to deploy
+
+### `firebase deploy --only hosting`
+
 ## Available Scripts
 
 In the project directory, you can run:

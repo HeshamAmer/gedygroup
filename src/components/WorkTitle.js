@@ -24,7 +24,7 @@ class WorkTitle extends Component{
                             How does ordering via QR work?
                         </h1>
                         <h2 className='qr-body mt-10 display-10'>
-                            You put QR code signs on the table, guests scan the code with their smartphone and automatically - with the table number already linked - to youorder site. <br/><br/>There is no need to install an order app, navigate to a web version or log in.
+                            You put QR code signs on the table, guests scan the code with their smartphone and automatically - with the table number already linked - to your order site. <br/><br/>There is no need to install an order app, navigate to a web version or log in.
                             Your guests choose their order and pay immediately.
                             <br/><br/>The order is automatically forwarded to the kitchen and/or bar. This can be served or picked up at the pick-up desk.
                         </h2>

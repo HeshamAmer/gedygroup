@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+# GedyGroup Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the landing page for GedyGroup LLC2021, a freelancing company that provides professional and personal solutions to entrepreneurs and businesses alike.
+
+## Features
+
+- Home Page
+- Pricing
+- Services
+- Contact Us
+
+## How to deploy
+
+1- Create [a Firebase project](https://firebase.google.com/docs/web/setup)\
+2- [Install](https://firebase.google.com/docs/cli#install_the_firebase_cli) Firebase CLI\
+3- Initialize project using
+
+### `firebase init hosting`
+
+4- Run below command to deploy
+
+### `firebase deploy --only hosting`
 
 ## Available Scripts
 
@@ -10,9 +29,6 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `npm test`
 
@@ -39,32 +55,5 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The page will reload if you make edits.\
+You will also see any lint errors in the console.

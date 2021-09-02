@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import './HomePageTitle.css'
 import './Work.css'
 import { Col, Container, Image, Row } from 'react-bootstrap'
 
 import phone1 from '../images/phone1.png'
-import phon2 from '../images/phone2.png'
+import phone2 from '../images/phone2.png'
 import scanQR from '../images/scanQR.jpg'
 class WorkTitle extends Component{
     render(){
@@ -42,7 +41,7 @@ class WorkTitle extends Component{
                             Our Apps Features
                         </h2>
                         <Image className="img-fluid col-sm-5" src={phone1} alt="logo"></Image>
-                        <Image className="img-fluid col-sm-5" src={phon2}></Image>
+                        <Image className="img-fluid col-sm-5" src={phone2}></Image>
                     </div>
                 </div>
             </Container>

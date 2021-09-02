@@ -26,6 +26,11 @@ class NavigationBar extends Component {
         </Link>
       </Nav.Link>
       <Nav.Link>
+        <Link to="/work" style={{textDecoration:"none"}}>
+        <h5 className="linkText nav-item">How it works</h5>
+        </Link>
+      </Nav.Link>
+      <Nav.Link>
         <Link to="/contact-us" style={{textDecoration:"none"}}>
         <h5 className="linkText nav-item">Contact Us</h5>
         </Link>

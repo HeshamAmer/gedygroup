@@ -3,32 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dfbaa66f-a26e-42ee-97af-69403bd54aae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GetInContactButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GetInContactButton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GetInContactButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GetInContactButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomePageTitle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePageTitle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomePageTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePageTitle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ScrollToTopButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScrollToTopButton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ScrollToTopButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScrollToTopButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ContactUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ContactUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Imprint.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Imprint.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Social.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Social.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Work.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630758060742</updated>
-      <workItem from="1630758062689" duration="1379000" />
+      <workItem from="1630758062689" duration="1480000" />
     </task>
     <task id="LOCAL-00001" summary="Clean up">
       <created>1630758228486</created>
@@ -91,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630759265101</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lint the whole project">
+      <created>1630759470270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630759470270</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +82,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Clean up" />
     <MESSAGE value="Remove Material design from footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Material design from footer" />
+    <MESSAGE value="Lint the whole project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lint the whole project" />
   </component>
 </project>

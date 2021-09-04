@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Image, Nav, Navbar} from 'react-bootstrap'
 import {Link} from "react-router-dom";
 import logo from '../images/logo.png'
-import githublogo from '../images/githubLogo.png'
+import githubLogo from '../images/githubLogo.png'
 import linkedInLogo from '../images/linkedin.png'
 import '../App.css'
 
@@ -28,7 +28,7 @@ class NavigationBar extends Component {
                     </Nav.Link>
                     <Nav.Link>
                         <Link to="/work" style={{textDecoration: "none"}}>
-                            <h5 className="linkText nav-item">How it works</h5>
+                            <h5 className="linkText nav-item">Services</h5>
                         </Link>
                     </Nav.Link>
                     <Nav.Link>
@@ -42,7 +42,7 @@ class NavigationBar extends Component {
                     <Nav.Link>
 
                         <Image title="Github" width="40dp" height="40dp" className="img-responsive mr-3"
-                               src={githublogo}
+                               src={githubLogo}
                                alt="githubLogo" onClick={() => {
                             window.open('https://github.com/HeshamAmer/gedygroup')
                         }}/>

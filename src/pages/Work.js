@@ -1,11 +1,7 @@
 import WorkTitle from '../components/WorkTitle'
 
 function work() {
-    return (
-        <div>
-            <WorkTitle/>
-        </div>
-    )
+    return <WorkTitle/>
 }
 
 export default work

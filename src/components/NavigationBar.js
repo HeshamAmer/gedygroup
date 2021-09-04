@@ -41,7 +41,8 @@ class NavigationBar extends Component {
                 <Nav className="ml-auto">
                     <Nav.Link>
 
-                        <Image title="Github" width="40dp" height="40dp" className="img-responsive mr-3" src={githublogo}
+                        <Image title="Github" width="40dp" height="40dp" className="img-responsive mr-3"
+                               src={githublogo}
                                alt="githubLogo" onClick={() => {
                             window.open('https://github.com/HeshamAmer/gedygroup')
                         }}/>

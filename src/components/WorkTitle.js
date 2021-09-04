@@ -12,7 +12,7 @@ class WorkTitle extends Component {
             <div className='qr-title'>
                 <h1 className='qr-main-font mt-2 display-2'>
                     Mobile ordering and <br/>
-                    payment via QR
+                    online payment via QR
                 </h1>
             </div>
             <div>

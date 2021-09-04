@@ -8,10 +8,10 @@ import '../App.css'
 
 class NavigationBar extends Component {
     render() {
-        return <Navbar bg="dark" sticky="top" variant="dark" expand="lg">
+        return <Navbar className={'navBarColor'} sticky="top" variant="dark" expand="lg">
             <Navbar.Brand>
                 <Link to="/">
-                    <Image width="70dp" height="auto" className="img-responsive" src={logo} alt="logo"/>
+                    <Image width="40dp" height="auto" className="img-responsive" src={logo} alt="logo"/>
                 </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
@@ -40,13 +40,14 @@ class NavigationBar extends Component {
 
                 <Nav className="ml-auto">
                     <Nav.Link>
+
+                        <Image title="Github" width="40dp" height="40dp" className="img-responsive mr-3" src={githublogo}
+                               alt="githubLogo" onClick={() => {
+                            window.open('https://github.com/HeshamAmer/gedygroup')
+                        }}/>
                         <Image title="LinkedIn" width="40dp" height="40dp" className="img-responsive" src={linkedInLogo}
                                alt="linkedInLogo" onClick={() => {
                             window.open('https://linkedin.com/company/gedygroup')
-                        }}/>
-                        <Image title="Github" width="40dp" height="40dp" className="img-responsive" src={githublogo}
-                               alt="githubLogo" onClick={() => {
-                            window.open('https://github.com/HeshamAmer/gedygroup')
                         }}/>
 
                     </Nav.Link>

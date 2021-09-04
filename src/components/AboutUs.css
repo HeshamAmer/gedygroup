@@ -1,27 +1,24 @@
 .about-us-paragraph {
-font-size: 16pt;
-margin: 15pt;
-color: grey;
-font-family: 'Lato', sans-serif;
+    font-size: 16pt;
+    margin: 15pt;
+    color: grey;
+    font-family: 'Lato', sans-serif;
 }
 
 
 .subtitle {
     padding: 5pt;
-    margin:15pt;
+    margin: 15pt;
     font-size: 25pt;
     color: black;
-    font-weight:bold;
-    
-font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
 }
 
-.grow:hover
-{
-        -webkit-transform: scale(1.15);
-        -ms-transform: scale(1.15);
-        transform: scale(1.15);
-        transition: 50ms linear;
-        background:rgba(225, 225, 225, .8);
-        
+.grow:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 50ms linear;
+    background: rgba(225, 225, 225, .2);
 }

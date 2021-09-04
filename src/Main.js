@@ -10,12 +10,12 @@ import Work from './pages/Work';
 const Main = () => {
   return (
     <Switch> 
-      <Route exact path='/' component={Home}></Route>
-      <Route exact path='/contact-Us' component={ContactUs}></Route>
-      <Route exact path='/pricing' component={Pricing}></Route>
-      <Route exact path='/social' component={Social}></Route>
-      <Route exact path='/imprint' component={Imprint}></Route>
-      <Route exact path='/work' component={Work}></Route>
+      <Route exact path='/' component={Home}/>
+      <Route exact path='/contact-Us' component={ContactUs}/>
+      <Route exact path='/pricing' component={Pricing}/>
+      <Route exact path='/social' component={Social}/>
+      <Route exact path='/imprint' component={Imprint}/>
+      <Route exact path='/work' component={Work}/>
     </Switch>
   );
 }

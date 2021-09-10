@@ -1,32 +1,40 @@
 .qr-title {
-    background-image: url("../images/phoneQR.jpg");
-    background-size: cover;
-    background-position: center top;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    text-align: center;
-    padding-top: 100pt;
-    border-bottom: 5px ridge;
-    height: 91vh;
+  background-image: url("../images/phoneQR.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  padding-top: 100pt;
+  border-bottom: 5px ridge;
+  height: 91vh;
 }
 
 .qr-main-font {
-    color: white;
-    text-align: center;
-    font-family: "Ubuntu", sans-serif;
-    font-stretch: extra-expanded;
-    margin-bottom: 60pt;
-    vertical-align: middle;
+  color: white;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-stretch: extra-expanded;
+  margin-bottom: 60pt;
+  vertical-align: middle;
 }
 
 .qr-sub-font {
-    color: black;
-    text-align: center;
-    font-family: "Ubuntu", sans-serif;
-    font-stretch: extra-expanded;
-    margin-bottom: 60pt;
-    vertical-align: middle;
+  color: black;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-stretch: extra-expanded;
+  margin-bottom: 60pt;
+  vertical-align: middle;
+}
+.qr-body {
+  color: black;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-stretch: extra-expanded;
+  margin-bottom: 60pt;
+  vertical-align: middle;
 }

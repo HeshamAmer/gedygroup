@@ -24,34 +24,40 @@ class WorkTitle extends Component {
                     </h1>
                     <Row>
                         <Col xs={12} sm={6}>
-                                <Image className="img-fluid col-sm-10" src={scanQR} alt="logo"></Image>
+                            <Image className="img-fluid col-sm-10" src={scanQR} alt="logo"/>
                         </Col>
                         <Col xs={12} sm={6}>
                             <h4 className='qr-body mt-10 display-10 text-left'>
                                 <ul class="list-styled">
-                                    <li>The guest scans the QR code on the table, chooses a dish or drink and pays for the order via the integratedorder site. When the order is delivered, the guest receives a QR voucher with which he or she can order and pay.</li>
-                                    <br/><li>The guest orders the first round through an employee. When the order is delivered, the guest receives a QR voucher with which he or she can place an order.</li>
-                                    <br/><li>The guest scans the QR code on the table, chooses a dish or drink and pays for the order via the integrated ordering site. To reorder, the guest scans the QR code on the table again and pays immediately.</li>
+                                    <li>Scan the table QR code</li>
+                                    <li>Select your order</li>
+                                    <li>Pay</li>
+                                    <li>Receive your order seamlessly</li>
                                 </ul>
                             </h4>
                         </Col>
                     </Row>
                     <h1 className='qr-sub-font '>
-                        The possibilities of QR ordering:
+                        Benefits of online ordering
                     </h1>
                     <Row>
                         <Col xs={6} sm={2}>
-                            <Image className="img-fluid" src={phone1} alt="logo"></Image>
+                            <Image className="img-fluid" src={phone1} alt="logo"/>
                         </Col>
                         <Col xs={6} sm={2}>
-                            <Image className="img-fluid" src={phone2}></Image>
+                            <Image className="img-fluid" src={phone2}/>
                         </Col>
                         <Col xs={12} sm={8}>
                             <h4 className='qr-body mt-10 display-10 text-left'>
-                                <ul class="list-styled">
-                                    <li>The guest scans the QR code on the table, chooses a dish or drink and pays for the order via the integratedorder site. When the order is delivered, the guest receives a QR voucher with which he or she can order and pay.</li>
-                                    <br/><li>The guest orders the first round through an employee. When the order is delivered, the guest receives a QR voucher with which he or she can place an order.</li>
-                                    <br/><li>The guest scans the QR code on the table, chooses a dish or drink and pays for the order via the integrated ordering site. To reorder, the guest scans the QR code on the table again and pays immediately.</li>
+                                <ul className="list-styled">
+                                    <li>Offer your waiters more time to serve your customers
+                                    </li>
+                                    <br/>
+                                    <li>Process payments digitally cheaper than Cheaper than normal ordering.
+                                    </li>
+                                    <br/>
+                                    <li>Digitize your menu and online presence
+                                    </li>
                                 </ul>
                             </h4>
                         </Col>

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfbaa66f-a26e-42ee-97af-69403bd54aae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkTitle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +12,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Service-Page" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xftdtFsNxgAZfSDWwceKvAJMHz" />
@@ -50,7 +56,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630758060742</updated>
-      <workItem from="1630758062689" duration="1480000" />
+      <workItem from="1630758062689" duration="2016000" />
+      <workItem from="1631309072271" duration="4240000" />
     </task>
     <task id="LOCAL-00001" summary="Clean up">
       <created>1630758228486</created>
@@ -73,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630759470270</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rename How it works to Services">
+      <created>1630759565771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630759565771</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +97,7 @@
     <MESSAGE value="Clean up" />
     <MESSAGE value="Remove Material design from footer" />
     <MESSAGE value="Lint the whole project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lint the whole project" />
+    <MESSAGE value="Rename How it works to Services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename How it works to Services" />
   </component>
 </project>

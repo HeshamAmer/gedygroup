@@ -1,5 +1,3 @@
-
-
 .home-page-title {
     background-image: url("../images/stock-image.jpg");
     background-size: cover;
@@ -12,8 +10,8 @@
     text-align: center;
     padding-top: 100pt;
     border-bottom: 5px ridge;
-    height:91vh;
-    
+    height: 91vh;
+
 }
 
 .home-page-font {
@@ -35,5 +33,5 @@
     font-size: 16px;
     line-height: 48px;
     width: 48px;
-  }
+}
 

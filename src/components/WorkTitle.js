@@ -51,20 +51,23 @@ class WorkTitle extends Component {
             <div>
             </div>
             <Container>
-                <h4>
-                    Try it yourself!
-                </h4>
-                <Row className={'align-items-center'}>
-                    <Col xs={12} sm={6}>
-                        <Image className="img-fluid col-sm-10" src={scanQR} alt="logo"/>
-                    </Col>
-                    <Col xs={12} sm={6}>
-                        <Image className="img-fluid col-sm-7"  src={sizzlerLogo} alt="logo"/>
+                <div className={'mt-5'}>
+                    <h4>
+                        Try it yourself!
+                    </h4>
+                    <Row className={'align-items-center'}>
+                        <Col xs={12} sm={6}>
+                            <Image className="img-fluid col-sm-10" src={scanQR} alt="logo"/>
+                        </Col>
+                        <Col xs={12} sm={6}>
+                            <Image className="img-fluid col-sm-7"  src={sizzlerLogo} alt="logo"/>
                     </Col>
                 </Row>
                 <hr/>
-                <h3>Restaurateur Client</h3>
-                <Row className={'align-items-center'}>
+                </div>
+                <div className={'mt-5'}>
+                    <h3>Restaurateur Client</h3>
+                    <Row className={'align-items-center mt-lg-5'}>
                     <Col xs={6} sm={6}>
                     <RestaurateurCarousel images={carousel_client} />
                     </Col>
@@ -81,7 +84,9 @@ class WorkTitle extends Component {
                         </h5>
                     </Col>
                 </Row>
-                <h3>Restaurateur Kitchen</h3>
+                </div>
+                <div className={'mt-5'}>
+                    <h3>Restaurateur Kitchen</h3>
                 <Row className={'align-items-center'}>
                     <Col xs={12} sm={6}>
                         <h5 className='text-left'>
@@ -101,8 +106,9 @@ class WorkTitle extends Component {
                     <Col xs={6} sm={6}>
                         <RestaurateurCarousel images={carousel_kitchen} />
                     </Col>
-                </Row>
-                <h3>Restaurateur Dashboard</h3>
+                </Row></div>
+                <div className={'mt-5'}>
+                    <h3>Restaurateur Dashboard</h3>
                 <Row className={'align-items-center'}>
                     <Col xs={6} sm={6}>
                     <RestaurateurCarousel images={carousel_dashboard} />
@@ -122,7 +128,7 @@ class WorkTitle extends Component {
                             </ul>
                         </h5>
                     </Col>
-                </Row>
+                </Row></div>
             </Container>
 
         </div>

@@ -18,14 +18,14 @@ import dashboard4 from '../images/Dashboard4.png';
 
 class WorkTitle extends Component {
     render() {
-        const carousel_kitchen=[
-            img_1,img_2,img_3
+        const carousel_kitchen = [
+            img_1, img_2, img_3
         ]
-        const carousel_client=[
-            client1,client2,client3,client4
+        const carousel_client = [
+            client1, client2, client3, client4
         ]
-        const carousel_dashboard=[
-            dashboard1,dashboard2,dashboard3,dashboard4
+        const carousel_dashboard = [
+            dashboard1, dashboard2, dashboard3, dashboard4
         ]
         return <div>
             <div className='qr-title'>
@@ -57,78 +57,78 @@ class WorkTitle extends Component {
                     </h4>
                     <Row className={'align-items-center'}>
                         <Col xs={12} sm={6}>
-                            <Image className="img-fluid col-sm-10" src={scanQR} alt="logo"/>
+                            <Image className="img-fluid col-sm-10" src={scanQR}/>
                         </Col>
                         <Col xs={12} sm={6}>
-                            <Image className="img-fluid col-sm-7"  src={sizzlerLogo} alt="logo"/>
-                    </Col>
-                </Row>
-                <hr/>
+                            <Image className="img-fluid col-sm-7" src={sizzlerLogo}/>
+                        </Col>
+                    </Row>
+                    <hr/>
                 </div>
                 <div className={'mt-5'}>
                     <h3>Restaurateur Client</h3>
                     <Row className={'align-items-center mt-lg-5'}>
-                    <Col xs={6} sm={6}>
-                    <RestaurateurCarousel images={carousel_client} />
-                    </Col>
-                    <Col xs={12} sm={6}>
-                        <h5 className='qr-body mt-10 display-10 text-left'>
-                            <ul className="list-styled">
-                                <li>Offer your waiters more time to serve your customers
-                                </li>
-                                <li>Allow your customers to choose their preferred payment method.
-                                </li>
-                                <li>Digitize your menu and online presence
-                                </li>
-                            </ul>
-                        </h5>
-                    </Col>
-                </Row>
+                        <Col xs={6} sm={6}>
+                            <RestaurateurCarousel images={carousel_client}/>
+                        </Col>
+                        <Col xs={12} sm={6}>
+                            <h5 className='qr-body mt-10 display-10 text-left'>
+                                <ul className="list-styled">
+                                    <li>Offer your waiters more time to serve your customers
+                                    </li>
+                                    <li>Allow your customers to choose their preferred payment method.
+                                    </li>
+                                    <li>Digitize your menu and online presence
+                                    </li>
+                                </ul>
+                            </h5>
+                        </Col>
+                    </Row>
                 </div>
                 <div className={'mt-5'}>
                     <h3>Restaurateur Kitchen</h3>
-                <Row className={'align-items-center'}>
-                    <Col xs={12} sm={6}>
-                        <h5 className='text-left'>
-                            <ul className="list-styled">
-                                <li>Display your orders instantaneously as they arrive.
-                                </li>
-                                <li>Disable ordering an order when it's out of stock.
-                                </li>
-                                <li>Display all of your historical orders per day
-                                </li>
-                                <li>Check your restaurant operations anywhere
-                                </li>
-                                <br/>
-                            </ul>
-                        </h5>
-                    </Col>
-                    <Col xs={6} sm={6}>
-                        <RestaurateurCarousel images={carousel_kitchen} />
-                    </Col>
-                </Row></div>
+                    <Row className={'align-items-center'}>
+                        <Col xs={12} sm={6}>
+                            <h5 className='text-left'>
+                                <ul className="list-styled">
+                                    <li>Display your orders instantaneously as they arrive.
+                                    </li>
+                                    <li>Disable ordering an order when it's out of stock.
+                                    </li>
+                                    <li>Display all of your historical orders per day
+                                    </li>
+                                    <li>Check your restaurant operations anywhere
+                                    </li>
+                                    <br/>
+                                </ul>
+                            </h5>
+                        </Col>
+                        <Col xs={6} sm={6}>
+                            <RestaurateurCarousel images={carousel_kitchen}/>
+                        </Col>
+                    </Row></div>
                 <div className={'mt-5'}>
                     <h3>Restaurateur Dashboard</h3>
-                <Row className={'align-items-center'}>
-                    <Col xs={6} sm={6}>
-                    <RestaurateurCarousel images={carousel_dashboard} />
-                    </Col>
-                    <Col xs={12} sm={6}>
-                        <h5 className='text-left'>
-                            <ul className="list-styled">
-                                <li>Display your orders instantaneously as they arrive.
-                                </li>
-                                <li>Disable ordering an order when it's out of stock.
-                                </li>
-                                <li>Display all of your historical orders per day
-                                </li>
-                                <li>Check your restaurant operations anywhere
-                                </li>
-                                <br/>
-                            </ul>
-                        </h5>
-                    </Col>
-                </Row></div>
+                    <Row className={'align-items-center'}>
+                        <Col xs={6} sm={6}>
+                            <RestaurateurCarousel images={carousel_dashboard}/>
+                        </Col>
+                        <Col xs={12} sm={6}>
+                            <h5 className='text-left'>
+                                <ul className="list-styled">
+                                    <li>Display your orders instantaneously as they arrive.
+                                    </li>
+                                    <li>Disable ordering an order when it's out of stock.
+                                    </li>
+                                    <li>Display all of your historical orders per day
+                                    </li>
+                                    <li>Check your restaurant operations anywhere
+                                    </li>
+                                    <br/>
+                                </ul>
+                            </h5>
+                        </Col>
+                    </Row></div>
             </Container>
 
         </div>

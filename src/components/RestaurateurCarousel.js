@@ -7,15 +7,12 @@ import './Carousel.css'
 class RestaurateurCarousel extends Component {
 
     render() {
-        console.log(this.props.images)
         return <div>
-            
             <Carousel showThumbs={false} showStatus={false} autoPlay infiniteLoop>
-                {this.props.images.map(image=>{
+                {this.props.images.map(image => {
                     return <Image className="smallRestaurateurImage" src={image}/>
+                })
                 }
-                )
-            }
             </Carousel>
         </div>
     }

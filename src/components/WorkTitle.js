@@ -68,7 +68,7 @@ class WorkTitle extends Component {
                 <div className={'mt-5'}>
                     <h3>Restaurateur Client</h3>
                     <Row className={'align-items-center mt-lg-5'}>
-                        <Col xs={6} sm={6}>
+                        <Col xs={12} sm={6}>
                             <RestaurateurCarousel images={carousel_client}/>
                         </Col>
                         <Col xs={12} sm={6}>
@@ -103,27 +103,24 @@ class WorkTitle extends Component {
                                 </ul>
                             </h5>
                         </Col>
-                        <Col xs={6} sm={6}>
+                        <Col xs={12} sm={6}>
                             <RestaurateurCarousel images={carousel_kitchen}/>
                         </Col>
                     </Row></div>
                 <div className={'mt-5'}>
                     <h3>Restaurateur Dashboard</h3>
                     <Row className={'align-items-center'}>
-                        <Col xs={6} sm={6}>
+                        <Col xs={12} sm={6}>
                             <RestaurateurCarousel images={carousel_dashboard}/>
                         </Col>
                         <Col xs={12} sm={6}>
                             <h5 className='text-left'>
                                 <ul className="list-styled">
-                                    <li>Display your orders instantaneously as they arrive.
+                                    <li>Manage your menu items with their prices and description.
                                     </li>
-                                    <li>Disable ordering an order when it's out of stock.
+                                    <li>Add new categories or menus for special events like Ramadan.
                                     </li>
-                                    <li>Display all of your historical orders per day
-                                    </li>
-                                    <li>Check your restaurant operations anywhere
-                                    </li>
+                                    <li>Keep track of all the orders placed through our platform for back book review</li>
                                     <br/>
                                 </ul>
                             </h5>

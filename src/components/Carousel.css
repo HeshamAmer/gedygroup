@@ -1,7 +1,7 @@
 .smallImage {
     max-width: fit-content;
     object-fit: cover;
-    height: auto
+    height: auto;
 }
 
 .smallRestaurateurImage {

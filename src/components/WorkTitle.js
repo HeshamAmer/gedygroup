@@ -116,14 +116,11 @@ class WorkTitle extends Component {
                         <Col xs={12} sm={6}>
                             <h5 className='text-left'>
                                 <ul className="list-styled">
-                                    <li>Display your orders instantaneously as they arrive.
+                                    <li>Manage your menu items with their prices and description.
                                     </li>
-                                    <li>Disable ordering an order when it's out of stock.
+                                    <li>Add new categories or menus for special events like Ramadan.
                                     </li>
-                                    <li>Display all of your historical orders per day
-                                    </li>
-                                    <li>Check your restaurant operations anywhere
-                                    </li>
+                                    <li>Keep track of all the orders placed through our platform for back book review</li>
                                     <br/>
                                 </ul>
                             </h5>

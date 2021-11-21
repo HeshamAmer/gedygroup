@@ -68,7 +68,7 @@ class WorkTitle extends Component {
                 <div className={'mt-5'}>
                     <h3>Restaurateur Client</h3>
                     <Row className={'align-items-center mt-lg-5'}>
-                        <Col xs={6} sm={6}>
+                        <Col xs={12} sm={6}>
                             <RestaurateurCarousel images={carousel_client}/>
                         </Col>
                         <Col xs={12} sm={6}>
@@ -103,26 +103,22 @@ class WorkTitle extends Component {
                                 </ul>
                             </h5>
                         </Col>
-                        <Col xs={6} sm={6}>
+                        <Col xs={12} sm={6}>
                             <RestaurateurCarousel images={carousel_kitchen}/>
                         </Col>
                     </Row></div>
                 <div className={'mt-5'}>
                     <h3>Restaurateur Dashboard</h3>
                     <Row className={'align-items-center'}>
-                        <Col xs={6} sm={6}>
+                        <Col xs={12} sm={6}>
                             <RestaurateurCarousel images={carousel_dashboard}/>
                         </Col>
                         <Col xs={12} sm={6}>
                             <h5 className='text-left'>
                                 <ul className="list-styled">
-                                    <li>Display your orders instantaneously as they arrive.
+                                    <li>Make your own menu this includes adding categories, individual items and prices.
                                     </li>
-                                    <li>Disable ordering an order when it's out of stock.
-                                    </li>
-                                    <li>Display all of your historical orders per day
-                                    </li>
-                                    <li>Check your restaurant operations anywhere
+                                    <li>Keep track of all your orders.
                                     </li>
                                     <br/>
                                 </ul>

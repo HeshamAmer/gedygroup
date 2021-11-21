@@ -116,10 +116,11 @@ class WorkTitle extends Component {
                         <Col xs={12} sm={6}>
                             <h5 className='text-left'>
                                 <ul className="list-styled">
-                                    <li>Make your own menu this includes adding categories, individual items and prices.
+                                    <li>Manage your menu items with their prices and description.
                                     </li>
-                                    <li>Keep track of all your orders.
+                                    <li>Add new categories or menus for special events like Ramadan.
                                     </li>
+                                    <li>Keep track of all the orders placed through our platform for back book review</li>
                                     <br/>
                                 </ul>
                             </h5>

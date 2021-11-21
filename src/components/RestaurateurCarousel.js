@@ -8,7 +8,7 @@ class RestaurateurCarousel extends Component {
 
     render() {
         return <div>
-            <Carousel showThumbs={false} showStatus={false} autoPlay infiniteLoop>
+            <Carousel showThumbs={false} showStatus={false} showArrows={true} onClickItem={(idx, item)=> window.open(item.props.src, '_blank')} autoPlay infiniteLoop>
                 {this.props.images.map(image => {
                     return <Image className="smallRestaurateurImage" src={image}/>
                 })

@@ -3,8 +3,9 @@
     object-fit: cover;
     height: auto
 }
+
 .smallRestaurateurImage {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     height: 300px;
 }

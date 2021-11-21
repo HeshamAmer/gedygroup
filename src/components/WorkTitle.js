@@ -37,7 +37,7 @@ class WorkTitle extends Component {
                     <h1>
                         Restaurateur
                     </h1>
-                    <h5 className>
+                    <h5>
                         Give your customers the ability to place their orders from their mobile phones directly to the
                         kitchen.<br/>
                         Let them choose their orders, special requests and extras instantly without losing any
@@ -68,7 +68,7 @@ class WorkTitle extends Component {
                 <div className={'mt-5'}>
                     <h3>Restaurateur Client</h3>
                     <Row className={'align-items-center mt-lg-5'}>
-                        <Col xs={6} sm={6}>
+                        <Col xs={12} sm={6}>
                             <RestaurateurCarousel images={carousel_client}/>
                         </Col>
                         <Col xs={12} sm={6}>
@@ -88,7 +88,10 @@ class WorkTitle extends Component {
                 <div className={'mt-5'}>
                     <h3>Restaurateur Kitchen</h3>
                     <Row className={'align-items-center'}>
-                        <Col xs={12} sm={6}>
+                        <Col xs={{span: 12, order:1}} sm={{span: 6, order:2}}>
+                            <RestaurateurCarousel images={carousel_kitchen}/>
+                        </Col>
+                        <Col xs={{span:12, order:2}} sm={{span: 6, order:1}}>
                             <h5 className='text-left'>
                                 <ul className="list-styled">
                                     <li>Display your orders instantaneously as they arrive.
@@ -103,14 +106,11 @@ class WorkTitle extends Component {
                                 </ul>
                             </h5>
                         </Col>
-                        <Col xs={6} sm={6}>
-                            <RestaurateurCarousel images={carousel_kitchen}/>
-                        </Col>
                     </Row></div>
                 <div className={'mt-5'}>
                     <h3>Restaurateur Dashboard</h3>
                     <Row className={'align-items-center'}>
-                        <Col xs={6} sm={6}>
+                        <Col xs={12} sm={6}>
                             <RestaurateurCarousel images={carousel_dashboard}/>
                         </Col>
                         <Col xs={12} sm={6}>

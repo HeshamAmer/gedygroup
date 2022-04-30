@@ -84,6 +84,7 @@ class WorkTitle extends Component {
                             </h5>
                         </Col>
                     </Row>
+                    <hr/>
                 </div>
                 <div className={'mt-5'}>
                     <h3>Restaurateur Kitchen</h3>
@@ -106,7 +107,9 @@ class WorkTitle extends Component {
                                 </ul>
                             </h5>
                         </Col>
-                    </Row></div>
+                    </Row>
+                    <hr/>
+                </div>
                 <div className={'mt-5'}>
                     <h3>Restaurateur Dashboard</h3>
                     <Row className={'align-items-center'}>

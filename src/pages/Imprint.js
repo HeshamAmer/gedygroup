@@ -6,18 +6,27 @@ class Imprint extends Component {
         return <div>
             <h1>Imprint</h1>
             <p>
-                Gedygroup LLC <br/> <br/>
-                #130 8th district private, 6th of october city<br/>
-                Giza <br/>
-                Egypt
+                Gedygroup LLC <br/> <br/><br/>
+                <br/>
+                <br/>
+                <br/>
+                Plot 2256 Building 9, Tasreeh El Amal street El Merag al Olwy <br/>
+                Cairo<br/>
+                Egypt<br/>
+
+                قطعة ٢٢٥٦ عمارة ٩ شارع تصريح العمل – المعراج العلوي – القاهرة<br/>
             </p>
+
             <p>
                 <br/>
-                Telephone: +49 17677550698 <br/>
+                Phone: +49 17677550698 <br/>
                 E-Mail: contact@gedygroup.com <br/>
-                Management: Hesham Amer, Mohamed Amer
+                Managing directors: Hesham Amer, Mohamed Amer
             </p>
-            Gedygroup is a limited liability company, registered under Egyptian Law <br/>
+            Registration Number: 185960 <br/>
+            Gedygroup is a limited liability company, registered under national Egyptian labor law for year 1981
+            <br/>
+
         </div>
 
     }

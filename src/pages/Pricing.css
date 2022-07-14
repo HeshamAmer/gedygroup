@@ -1,7 +1,0 @@
-.cardHover:hover {
-    -webkit-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-    transform: scale(1.02);
-    transition: 50ms linear;
-    background: rgba(225, 225, 225, .2);
-}

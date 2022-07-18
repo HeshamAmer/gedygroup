@@ -1,89 +1,1056 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/8.6.8/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/8.6.8/firebase-auth.js"></script>
-    <script defer src="/__/firebase/8.6.8/firebase-database.js"></script>
-    <script defer src="/__/firebase/8.6.8/firebase-firestore.js"></script>
-    <script defer src="/__/firebase/8.6.8/firebase-functions.js"></script>
-    <script defer src="/__/firebase/8.6.8/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/8.6.8/firebase-storage.js"></script>
-    <script defer src="/__/firebase/8.6.8/firebase-analytics.js"></script>
-    <script defer src="/__/firebase/8.6.8/firebase-remote-config.js"></script>
-    <script defer src="/__/firebase/8.6.8/firebase-performance.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
+    <!--====== Title ======-->
+    <title>GedyGroup LLC</title>
+    <!--====== Favicon Icon ======-->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <!--====== Google Fonts ======-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--====== Font Awesome ======-->
+    <link rel="stylesheet" href="assets/css/fontawesome.5.9.0.min.css" />
+    <!--====== Flaticon CSS ======-->
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.4.5.3.min.css" />
+    <!--====== Magnific Popup ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!--====== Slick Slider ======-->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <!--====== Nice Select ======-->
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <!--====== Padding Margin ======-->
+    <link rel="stylesheet" href="assets/css/spacing.min.css" />
+    <!--====== Menu css ======-->
+    <link rel="stylesheet" href="assets/css/menu.css" />
+    <!--====== Main css ======-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--====== Responsive css ======-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
+
   <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+    <div class="page-wrapper">
+      <!-- Preloader -->
+      <div class="preloader"></div>
+
+      <!--====== Header Part Start ======-->
+      <header class="main-header">
+        <!--Header-Top-->
+        <!-- <div class="header-top text-center text-white bg-blue py-5">
+          <div class="container rel z-1">
+            <br />
+            <img
+              class="header-left-shape"
+              src="assets/images/shapes/header-top-left.png"
+              alt="shape"
+            />
+            <img
+              class="header-right-shape slideLeftRight infinite"
+              src="assets/images/shapes/header-top-right.png"
+              alt="shape"
+            />
+          </div>
+        </div> -->
+
+        <!--Header-Upper-->
+        <div class="header-upper">
+          <div class="container clearfix">
+            <div class="header-inner py-20">
+              <div class="logo-outer">
+                <div class="logo">
+                  <a href="index.html"
+                    ><img
+                      src="assets/images/logos/logo.png"
+                      alt="Logo"
+                      width="50%"
+                  /></a>
+                </div>
+              </div>
+
+              <div class="nav-outer clearfix">
+                <!-- Main Menu -->
+                <nav class="main-menu navbar-expand-lg">
+                  <div class="navbar-header">
+                    <div class="logo-mobile">
+                      <a href="index.html"
+                        ><img
+                          src="assets/images/logos/logo.png"
+                          width="50%"
+                          alt="Logo"
+                      /></a>
+                    </div>
+                    <!-- Toggle Button -->
+                    <button
+                      type="button"
+                      class="navbar-toggle"
+                      data-toggle="collapse"
+                      data-target=".navbar-collapse"
+                      aria-controls="main-menu"
+                    >
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </div>
+                  <div class="navbar-collapse collapse clearfix" id="main-menu">
+                    <ul class="navigation clearfix">
+                      <li><a href="index.html">home</a></li>
+                      <li><a href="products.html">products</a></li>
+                      <li><a href="consultancy.html">consultancy</a></li>
+                      <li><a href="contact.html">contact</a></li>
+                    </ul>
+                  </div>
+                  <!-- <div class="navbar-collapse collapse clearfix" id="main-menu">
+                    <ul class="navigation clearfix">
+                      <li class="dropdown current">
+                        <a href="#">home</a>
+                        <ul>
+                          <li><a href="index.html">Home One</a></li>
+                          <li><a href="index2.html">Home Two</a></li>
+                          <li><a href="index3.html">Home Three</a></li>
+                          <li><a href="index3dark.html">Home 3 Dark</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="products.html">about</a></li>
+                      <li class="dropdown">
+                        <a href="#">project</a>
+                        <ul>
+                          <li><a href="consultancy.html">Projects</a></li>
+                          <li>
+                            <a href="project-details.html">Project details</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#">blog</a>
+                        <ul>
+                          <li><a href="blog.html">blog standard</a></li>
+                          <li><a href="blog-details.html">blog details</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#">pages</a>
+                        <ul>
+                          <li>
+                            <a href="single-service.html">service single</a>
+                          </li>
+                          <li><a href="team-details.html">Team Profile</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="contact.html">contact</a></li>
+                    </ul>
+                  </div> -->
+                </nav>
+                <!-- Main Menu End-->
+              </div>
+
+              <div
+                class="menu-right d-none d-lg-flex align-items-center ml-lg-auto"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <!--End Header Upper-->
+      </header>
+      <!--====== Header Part End ======-->
+
+      <!--====== Hero Section Start ======-->
+      <section class="hero-section rel z-2 pt-210 pb-75">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-11">
+              <div class="hero-content rmb-75">
+                <h1 class="mb-15 wow fadeInUp delay-0-4s">
+                  Professional, Personal Solutions Bring your ideas to life!
+                </h1>
+                <!-- <p class="wow fadeInUp delay-0-5s">
+                  Sit amet consectetur adipiscing elit seddo eiusmod tempode
+                  dunt ut labore et dolore magna aliqua suspendisse
+                </p> -->
+                <ul class="list-style-one mt-30 wow fadeInUp delay-0-6s">
+                  <li>3 Months for free when first joining our premium plan</li>
+                  <li>Guaranteed lifetime support</li>
+                </ul>
+                <div class="hero-btns mt-40 wow fadeInUp delay-0-8s">
+                  <a href="contact.html" class="theme-btn mb-15"
+                    >Get in Contact Now <i class="fas fa-arrow-right"></i
+                  ></a>
+                  <a href="products.html" class="theme-btn style-two mb-15"
+                    >Learn More <i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="hero-image wow fadeInLeft delay-0-4s">
+                <img src="assets/images/hero/hero.png" alt="Hero" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="dots-shape"
+          src="assets/images/shapes/dots.png"
+          alt="Shape"
+        />
+        <img
+          class="tringle-shape"
+          src="assets/images/shapes/tringle.png"
+          alt="Shape"
+        />
+        <img
+          class="close-shape"
+          src="assets/images/shapes/close.png"
+          alt="Shape"
+        />
+      </section>
+      <!--====== Hero Section End ======-->
+
+      <!--====== Partners Section Start ======-->
+      <!-- <section class="partners-section rel z-1 pt-250 rpt-150 pb-90 rpb-60">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-7 col-lg-10">
+              <div class="section-title mb-45">
+                <h2>
+                  We’ve <span>1253+</span> More Then Trusted Premium Global
+                  Partners
+                </h2>
+              </div>
+              <div class="row">
+                <div class="col-lg-3 col-sm-4 col-6">
+                  <a
+                    class="partner-item wow fadeInRight delay-0-2s"
+                    href="project-details.html"
+                  >
+                    <img
+                      src="assets/images/partners/partner1.png"
+                      alt="Partner"
+                    />
+                  </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-6">
+                  <a
+                    class="partner-item wow fadeInRight delay-0-4s"
+                    href="project-details.html"
+                  >
+                    <img
+                      src="assets/images/partners/partner2.png"
+                      alt="Partner"
+                    />
+                  </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-6">
+                  <a
+                    class="partner-item wow fadeInRight delay-0-6s"
+                    href="project-details.html"
+                  >
+                    <img
+                      src="assets/images/partners/partner3.png"
+                      alt="Partner"
+                    />
+                  </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-6">
+                  <a
+                    class="partner-item wow fadeInRight delay-0-8s"
+                    href="project-details.html"
+                  >
+                    <img
+                      src="assets/images/partners/partner4.png"
+                      alt="Partner"
+                    />
+                  </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-6">
+                  <a
+                    class="partner-item wow fadeInRight delay-0-2s"
+                    href="project-details.html"
+                  >
+                    <img
+                      src="assets/images/partners/partner5.png"
+                      alt="Partner"
+                    />
+                  </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-6">
+                  <a
+                    class="partner-item wow fadeInRight delay-0-4s"
+                    href="project-details.html"
+                  >
+                    <img
+                      src="assets/images/partners/partner6.png"
+                      alt="Partner"
+                    />
+                  </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-6">
+                  <a
+                    class="partner-item wow fadeInRight delay-0-6s"
+                    href="project-details.html"
+                  >
+                    <img
+                      src="assets/images/partners/partner7.png"
+                      alt="Partner"
+                    />
+                  </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-6">
+                  <a
+                    class="partner-item wow fadeInRight delay-0-8s"
+                    href="project-details.html"
+                  >
+                    <img
+                      src="assets/images/partners/partner8.png"
+                      alt="Partner"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-about-bg">
+          <img src="assets/images/shapes/hero-about-bg.png" alt="Background" />
+        </div>
+      </section> -->
+      <!--====== Partners Section End ======-->
+
+      <!--====== Solutions Section Start ======-->
+      <section class="solutions-section rel z-1 pb-100 rpb-70">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-xl-6 col-lg-8 col-md-10">
+              <div class="section-title mb-55">
+                <span class="sub-title">Our Special Solutions</span>
+                <h2>We Customize Your Software to The Smart Ways</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-xl-3 col-md-6">
+              <div class="solution-item wow fadeInUp delay-0-2s">
+                <div class="solution-content">
+                  <i class="flaticon-monitoring"></i>
+                  <h3>
+                    <a href="single-service.html">Personalized Software</a>
+                  </h3>
+                  <p>
+                    At our company, we turn the digital dreams of our clients
+                    into a reality. We work closely with our users throughout
+                    development to ensure that we are still aligned with the
+                    end-goal. We are committed to producing exceptional software
+                    for each of our clients.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="solution-item wow fadeInUp delay-0-4s">
+                <div class="solution-content">
+                  <i class="flaticon-market"></i>
+                  <h3>
+                    <a href="single-service.html">Payment solutions experts</a>
+                  </h3>
+                  <p>
+                    We have developed payment solution integrations with most of
+                    the online payment providers. Building your payment solution
+                    software will be safe in our hands.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="solution-item wow fadeInUp delay-0-6s">
+                <div class="solution-content">
+                  <i class="flaticon-fast-delivery"></i>
+                  <h3><a href="single-service.html">Rigorous Testing</a></h3>
+                  <p>
+                    Once we have finished the initial development of our
+                    client's product, we begin performing meticulous bug checks.
+                    These tests are included in the price of the development
+                    package. After testing, we deliver the software to our
+                    clients.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="solution-item wow fadeInUp delay-0-8s">
+                <div class="solution-content">
+                  <i class="flaticon-trophy"></i>
+                  <h3><a href="single-service.html">Quality Guaranteed</a></h3>
+                  <p>
+                    The world of technology can be fast-paced and scary. That's
+                    why our goal is to provide a high-quality product that
+                    aligns with your company's needs. No matter the budget, we
+                    pride ourselves on providing professional customer service.
+                    We guarantee you will be satisfied with our work.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="dots-shape"
+          src="assets/images/shapes/dots.png"
+          alt="Shape"
+        />
+        <img
+          class="tringle-shape"
+          src="assets/images/shapes/tringle.png"
+          alt="Shape"
+        />
+        <img
+          class="close-shape"
+          src="assets/images/shapes/close.png"
+          alt="Shape"
+        />
+        <img
+          class="circle-shape"
+          src="assets/images/shapes/circle.png"
+          alt="Shape"
+        />
+      </section>
+      <!--====== Solutions Section End ======-->
+
+      <!--====== About Section Start ======-->
+      <section class="about-section rel z-1 pb-45 rpb-15">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-7 col-lg-6">
+              <div class="about-image rmb-55 wow fadeInLeft delay-0-2s">
+                <img
+                  src="assets/images/about/what-we-provide.png"
+                  alt="About"
+                />
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-6">
+              <div class="about-content wow fadeInRight delay-0-2s">
+                <div class="section-title mb-25">
+                  <span class="sub-title">What We Provide</span>
+                  <h2>User Friendly Experience For Our Clients</h2>
+                </div>
+                <p>
+                  We always stand by our clients and with our encouraging
+                  technology and outstanding team, we promise a quality of life
+                  to our clients through our services that challenge the market
+                  today.
+                </p>
+                <ul class="list-style-one mt-30 mb-45">
+                  <li>3 Months for free when first joining our premium plan</li>
+                  <li>Guaranteed lifetime support</li>
+                </ul>
+                <a href="contact.html" class="theme-btn"
+                  >Get in Contact Now <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--====== About Section End ======-->
+
+      <!--====== Counter Section Start ======-->
+      <!-- <div class="counter-section rel z-2">
+        <div class="container">
+          <div
+            class="counter-inner bg-blue bgs-cover text-white rel z-1"
+            style="background-image: url(assets/images/shapes/counter-bg.png)"
+          >
+            <div class="row">
+              <div class="col-xl-3 col-md-6">
+                <div class="success-item">
+                  <span class="count-text" data-speed="3000" data-stop="250"
+                    >0</span
+                  >
+                  <p>Happy Clients</p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6">
+                <div class="success-item">
+                  <span class="count-text" data-speed="3000" data-stop="683"
+                    >0</span
+                  >
+                  <p>Project Done</p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6">
+                <div class="success-item">
+                  <span class="count-text" data-speed="3000" data-stop="425"
+                    >0</span
+                  >
+                  <p>Team Member</p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6">
+                <div class="success-item">
+                  <span class="count-text" data-speed="3000" data-stop="753"
+                    >0</span
+                  >
+                  <p>Awards Wins</p>
+                </div>
+              </div>
+            </div>
+            <div class="white-circle">
+              <img
+                src="assets/images/shapes/white-circle.png"
+                alt="White Circle"
+              />
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!--====== Counter Section End ======-->
+
+      <!--====== Features Section Start ======-->
+      <section
+        class="features-section bg-lighter rel z-1 pt-50 rpt-5 pb-30 rpb-100"
+      >
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div
+                class="feature-content rpt-35 rmb-55 wow fadeInRight delay-0-2s"
+              >
+                <div class="section-title mb-35">
+                  <span class="sub-title">Core Features</span>
+                  <h2>Features Help You Build Better Software.</h2>
+                </div>
+                <div class="row">
+                  <div class="col-xl-6 col-lg-12 col-md-6">
+                    <div class="feature-item">
+                      <i class="flaticon-layers"></i>
+                      <div class="content">
+                        <h4>Advanced Tracking</h4>
+                        <p>
+                          Always keep an eye on our software for improvement
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-12 col-md-6">
+                    <div class="feature-item">
+                      <i class="flaticon-market"></i>
+                      <div class="content">
+                        <h4>Marketing Analysis</h4>
+                        <p>Change our strategies depending on the market</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-12 col-md-6">
+                    <div class="feature-item">
+                      <i class="flaticon-development"></i>
+                      <div class="content">
+                        <h4>Stackable Software</h4>
+                        <p>
+                          Our team develops solutions that are very adaptive
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-12 col-md-6">
+                    <div class="feature-item">
+                      <i class="flaticon-pie-chart"></i>
+                      <div class="content">
+                        <h4>Fulltime Support</h4>
+                        <p>
+                          Always by your side for any improvements or inquiries
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a href="contact.html" class="theme-btn style-three mt-15"
+                  >Get in Contact Now <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="feature-images wow fadeInLeft delay-0-2s">
+                <img
+                  class="first z-1 slideUpDown"
+                  src="assets/images/features/feature1.png"
+                  alt="Feature"
+                />
+                <img
+                  class="second z-2 slideLeftRight"
+                  src="assets/images/features/feature2.png"
+                  alt="Feature"
+                />
+                <img
+                  class="third z-3 slideLeftRight delay-2-0s"
+                  src="assets/images/features/feature3.png"
+                  alt="Feature"
+                />
+                <img
+                  class="fourth z-5 slideUpDown"
+                  src="assets/images/features/feature4.png"
+                  alt="Feature"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="dots-shape"
+          src="assets/images/shapes/dots.png"
+          alt="Shape"
+        />
+        <img
+          class="tringle-shape"
+          src="assets/images/shapes/tringle.png"
+          alt="Shape"
+        />
+        <img
+          class="close-shape"
+          src="assets/images/shapes/close.png"
+          alt="Shape"
+        />
+        <img
+          class="circle-shape"
+          src="assets/images/shapes/circle.png"
+          alt="Shape"
+        />
+      </section>
+      <!--====== Features Section End ======-->
+
+      <!-- This section is for future clients -->
+      <!--====== Feedback Section Start ======-->
+      <!-- <section class="feedback-section rel z-1 mb-130 rmb-100">
+        <div class="container">
+          <div class="row align-items-end">
+            <div class="col-lg-6">
+              <div class="feedback-left-image wow fadeInRight delay-0-2s">
+                <img
+                  src="assets/images/feedbacks/feedback-left.png"
+                  alt="Feedback"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div
+                class="feedback-right-content rmt-0 wow fadeInLeft delay-0-2s"
+              >
+                <div class="section-title mt-50 mb-25">
+                  <span class="sub-title">Clients Feedback</span>
+                  <h2>What Our Customer’s Say About Solutions</h2>
+                </div>
+                <div class="feedback-wrap">
+                  <div class="feedback-item">
+                    <div class="feedback-author">
+                      <i class="flaticon-quote-1"></i>
+                      <div class="author-content">
+                        <h3>Ali el shall</h3>
+                        <span>Senior Manager</span>
+                      </div>
+                    </div>
+                    <p>
+                      Sed ut perspiciatis unde omnis iste natus errors
+                      voluptatem accusantium doloremque laudantiums totam rem
+                      aperiam <b>eaque ipsaquae abtore</b> verita tis et quasi
+                      architecto beatae vitae dicta sunxplica nemo enim ipsam
+                      voluptatem quia
+                    </p>
+                  </div>
+                  <div class="feedback-item">
+                    <div class="feedback-author">
+                      <i class="flaticon-quote-1"></i>
+                      <div class="author-content">
+                        <h3>Zelma K. Hall</h3>
+                        <span>Senior Manager</span>
+                      </div>
+                    </div>
+                    <p>
+                      Natus errors voluptatem accusantium doloremque laudantiums
+                      totam rem aperiam eaque ipsaquae abtore verita tis et
+                      quasi <b>Sed ut perspiciatis</b> unde omnis iste
+                      architecto beatae vitae dicta sunxplica nemo enim ipsam
+                      voluptatem quia
+                    </p>
+                  </div>
+                  <div class="feedback-item">
+                    <div class="feedback-author">
+                      <i class="flaticon-quote-1"></i>
+                      <div class="author-content">
+                        <h3>Rhonda R. Croft</h3>
+                        <span>Senior Manager</span>
+                      </div>
+                    </div>
+                    <p>
+                      Sunxplica nemo enim ipsam voluptatem quia Sed ut
+                      perspiciatis unde omnis iste
+                      <b>natus errors voluptatem</b> accusantium doloremque
+                      laudantiums totam rem aperiam eaque ipsaquae abtore verita
+                      tis et quasi architecto beatae vitae dicta
+                    </p>
+                  </div>
+                  <div class="feedback-item">
+                    <div class="feedback-author">
+                      <i class="flaticon-quote-1"></i>
+                      <div class="author-content">
+                        <h3>David J. Silver</h3>
+                        <span>Senior Manager</span>
+                      </div>
+                    </div>
+                    <p>
+                      Perspiciatis unde omnis iste Sed ut natus errors
+                      voluptatem accusantium doloremque laudantiums totam rem
+                      aperiam <b>eaque ipsaquae abtore</b> verita tis et quasi
+                      architecto beatae vitae dicta sunxplica nemo enim ipsam
+                      voluptatem quia
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!--====== Feedback Section End ======-->
+
+      <!--====== Blog Section Start ======-->
+      <!-- <section class="blog-section rel z-1 pb-210 rpb-100 rpb-150 rmb-30">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-xl-6 col-lg-8 col-md-10">
+              <div class="section-title mb-55">
+                <span class="sub-title">Latest News & Blog</span>
+                <h2>Get Our Every Single Update Latest News & Blog</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-xl-3 col-md-6">
+              <div class="blog-item wow fadeInUp delay-0-2s">
+                <div class="image">
+                  <img src="assets/images/blog/blog1.jpg" alt="Blog" />
+                </div>
+                <div class="blog-author">
+                  <img src="assets/images/blog/blog-author.jpg" alt="Author" />
+                  <h5><a href="#">Katherine J. Glaser</a></h5>
+                </div>
+                <div class="blog-content">
+                  <ul class="blog-meta">
+                    <li>
+                      <i class="far fa-calendar-alt"></i>
+                      <a href="blog-details.html">25 March 2022</a>
+                    </li>
+                    <li>
+                      <i class="far fa-comments"></i> <a href="#">Com (5)</a>
+                    </li>
+                  </ul>
+                  <h4>
+                    <a href="blog-details.html"
+                      >Smashin Podcast Episode Ferdinande Web Dead</a
+                    >
+                  </h4>
+                  <p>
+                    Sed ut perspiciati omnis istee sit voluptatem accusantium
+                  </p>
+                </div>
+                <a href="blog-details.html" class="learn-more"
+                  >Learn More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="blog-item wow fadeInUp delay-0-4s">
+                <div class="image">
+                  <img src="assets/images/blog/blog2.jpg" alt="Blog" />
+                </div>
+                <div class="blog-author">
+                  <img src="assets/images/blog/blog-author.jpg" alt="Author" />
+                  <h5><a href="#">Katherine J. Glaser</a></h5>
+                </div>
+                <div class="blog-content">
+                  <ul class="blog-meta">
+                    <li>
+                      <i class="far fa-calendar-alt"></i>
+                      <a href="blog-details.html">25 March 2022</a>
+                    </li>
+                    <li>
+                      <i class="far fa-comments"></i> <a href="#">Com (5)</a>
+                    </li>
+                  </ul>
+                  <h4>
+                    <a href="blog-details.html"
+                      >Usings Codes Your Biness Best Practice Pitfalls</a
+                    >
+                  </h4>
+                  <p>
+                    Sed ut perspiciati omnis istee sit voluptatem accusantium
+                  </p>
+                </div>
+                <a href="blog-details.html" class="learn-more"
+                  >Learn More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="blog-item wow fadeInUp delay-0-6s">
+                <div class="image">
+                  <img src="assets/images/blog/blog3.jpg" alt="Blog" />
+                </div>
+                <div class="blog-author">
+                  <img src="assets/images/blog/blog-author.jpg" alt="Author" />
+                  <h5><a href="#">Katherine J. Glaser</a></h5>
+                </div>
+                <div class="blog-content">
+                  <ul class="blog-meta">
+                    <li>
+                      <i class="far fa-calendar-alt"></i>
+                      <a href="blog-details.html">25 March 2022</a>
+                    </li>
+                    <li>
+                      <i class="far fa-comments"></i> <a href="#">Com (5)</a>
+                    </li>
+                  </ul>
+                  <h4>
+                    <a href="blog-details.html"
+                      >Web Frameworks Solvowe Sithout Them Part</a
+                    >
+                  </h4>
+                  <p>
+                    Sed ut perspiciati omnis istee sit voluptatem accusantium
+                  </p>
+                </div>
+                <a href="blog-details.html" class="learn-more"
+                  >Learn More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="blog-item wow fadeInUp delay-0-8s">
+                <div class="image">
+                  <img src="assets/images/blog/blog4.jpg" alt="Blog" />
+                </div>
+                <div class="blog-author">
+                  <img src="assets/images/blog/blog-author.jpg" alt="Author" />
+                  <h5><a href="#">Katherine J. Glaser</a></h5>
+                </div>
+                <div class="blog-content">
+                  <ul class="blog-meta">
+                    <li>
+                      <i class="far fa-calendar-alt"></i>
+                      <a href="blog-details.html">25 March 2022</a>
+                    </li>
+                    <li>
+                      <i class="far fa-comments"></i> <a href="#">Com (5)</a>
+                    </li>
+                  </ul>
+                  <h4>
+                    <a href="blog-details.html"
+                      >Designing Better Links For Websites And Emails</a
+                    >
+                  </h4>
+                  <p>
+                    Sed ut perspiciati omnis istee sit voluptatem accusantium
+                  </p>
+                </div>
+                <a href="blog-details.html" class="learn-more"
+                  >Learn More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="news-more-btn text-center pt-30">
+                <a href="blog.html" class="theme-btn style-three"
+                  >View More News <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!--====== Blog Section End ======-->
+
+      <!--====== Footer Section Start ======-->
+      <footer class="footer-section mt-200 bg-lighter rel z-1">
+        <div class="container">
+          <div class="call-to-action bg-blue bgs-cover text-white rel z-1">
+            <div class="row align-items-center">
+              <div class="col-xl-7 col-lg-6">
+                <div class="section-title mb-20">
+                  <h2>Join us today!</h2>
+                  <p>Professional service for your software solutions</p>
+                </div>
+              </div>
+              <div class="col-xl-5 col-lg-6">
+                <div class="call-to-action-btns text-xl-right mb-20">
+                  <a href="contact.html" class="theme-btn style-two rmb-15"
+                    >Get in Contact Now <i class="fas fa-arrow-right"></i
+                  ></a>
+                  <a href="products.html" class="theme-btn style-three rmb-15"
+                    >Learn More <i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <img
+              class="white-circle"
+              src="assets/images/shapes/white-circle.png"
+              alt="White Circle"
+            />
+            <img
+              class="white-dots slideUpRight"
+              src="assets/images/shapes/white-dots.png"
+              alt="shape"
+            />
+            <img
+              class="white-dots-circle slideLeftRight"
+              src="assets/images/shapes/white-dots-circle.png"
+              alt="shape"
+            />
+          </div>
+          <!-- Footer with hyperlinks change this once then copy it to other views -->
+          <div class="row">
+            <div class="col-xl-2 col-sm-6 col-7">
+              <div class="footer-widget about-widget">
+                <div class="footer-logo">
+                  <a href="index.html"
+                    ><img
+                      src="assets/images/logos/logo.png"
+                      width="80%"
+                      alt="Logo"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-md-4">
+              <div class="footer-widget contact-widget">
+                <h4 class="footer-title">Get in Touch</h4>
+                <ul class="list-style-three">
+                  <li>
+                    <i class="fas fa-map-marker-alt"></i> Plot 2256 Building 9,
+                    Tasreeh El Amal street El Merag al Olwy,Cairo ,Egypt
+                  </li>
+                  <li>
+                    قطعة ٢٢٥٦ عمارة ٩ شارع تصريح العمل – المعراج العلوي –
+                    القاهرة
+                  </li>
+                  <li>
+                    <i class="fas fa-envelope-open"></i>
+                    <a href="mailto:contact@gedygroup.com"
+                      >contact@gedygroup.com
+                    </a>
+                  </li>
+                  <li>
+                    <i class="fas fa-phone"></i> Support:
+                    <a href="callto:+20 122 719 9077">+20 122 719 9077</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-5 col-md-4">
+              <div class="footer-widget contact-widget mt-55">
+                <ul class="list-style-three">
+                  <li>
+                    <i class="fab fa-whatsapp"></i>Sales & Marketing:
+                    <a href="callto:+1 5307613236">+1 5307613236</a>
+                  </li>
+                  <li>
+                    <i class="fas fa-book"></i>Registration Number: 185960
+                  </li>
+                  <li><i class="fas fa-book"></i>Tax number: 684-523-434</li>
+                </ul>
+                <div class="social-style-one mt-5">
+                  <a
+                    href="https://github.com/HeshamAmer/gedygroup"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/company/gedygroup/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright-area text-center">
+            <p>
+              © 2022
+              <a href="index.html">GedyGroup LLC</a><br />
+              <p style="font-size: small;"> Registered under national Egyptian labor law for year 1981</p>
+            </p>
+          </div>
+        </div>
+        <img
+          class="dots-shape"
+          src="assets/images/shapes/dots.png"
+          alt="Shape"
+        />
+        <img
+          class="tringle-shape"
+          src="assets/images/shapes/tringle.png"
+          alt="Shape"
+        />
+        <img
+          class="close-shape"
+          src="assets/images/shapes/close.png"
+          alt="Shape"
+        />
+        <img
+          class="circle-shape"
+          src="assets/images/shapes/circle.png"
+          alt="Shape"
+        />
+        <div class="left-circles"></div>
+        <div class="right-circles"></div>
+      </footer>
+      <!--====== Footer Section End ======-->
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <!--End pagewrapper-->
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+    <!-- Scroll Top Button -->
+    <button class="scroll-top scroll-to-target" data-target="html">
+      <span class="fa fa-angle-up"></span>
+    </button>
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
+    <!--====== Jquery ======-->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!--====== Bootstrap ======-->
+    <script src="assets/js/bootstrap.4.5.3.min.js"></script>
+    <!--====== Appear js ======-->
+    <script src="assets/js/appear.js"></script>
+    <!--====== WOW js ======-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--====== Isotope ======-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--====== Circle Progress ======-->
+    <script src="assets/js/circle-progress.min.js"></script>
+    <!--====== Image loaded ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!--====== Nice Select ======-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--====== Magnific ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--====== Slick Slider ======-->
+    <script src="assets/js/slick.min.js"></script>
+    <!--====== Main JS ======-->
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

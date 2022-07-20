@@ -40,13 +40,12 @@ To deploy using firebase:
 - Choose Hosting: Configure and deploy Firebase Hosting sites
 - Select no when prompted for single page application
 - Copy content to public folder
-- Deploy
+- Deploy using this script from here on out
 ```bash
-  firebase deploy
+  bash deploy.sh
 ```
 
 
 ## Appendix
 
 GedyGroup LLC registered under national Egyptian labor law for year 1981 All rights reserved.
-
